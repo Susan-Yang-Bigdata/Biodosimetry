@@ -1,0 +1,18 @@
+[project]
+name = "biological-dosimetry-decision-support-prototype"
+version = "0.1.0"
+description = "Rule-based biological dosimetry / 생물학적 선량평가 decision-support prototype (Streamlit, no ML, no image analysis)."
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.28.0",
+    "pypdf>=5.0.0",
+]
+
+[project.optional-dependencies]
+ocr = [
+    "pymupdf>=1.24.0",
+    "ocrmypdf>=16.0.0",
+]
+
+[tool.uv]
+dev-dependencies = []

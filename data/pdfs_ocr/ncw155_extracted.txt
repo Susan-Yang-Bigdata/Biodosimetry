@@ -1,0 +1,1143 @@
+===== 페이지 1 / 9 =====
+Radiation Protection Dosimetry (2016), Vol. 172, No. 1-3, pp. 38–46
+doi:10.1093/rpd/ncw155
+Advance Access publication 29 July 2016
+BIODOSIMETRY: MEDICINE, SCIENCE, AND SYSTEMS TO
+SUPPORT THE MEDICAL DECISION-MAKER FOLLOWING A
+LARGE SCALE NUCLEAR OR RADIATION INCIDENT
+C. Norman Coleman1,2,† and John F. Koerner1,*,†
+1Chemical, Biological, Radiological, Nuclear and Explosive Branch, Ofﬁce of Emergency Management,
+Ofﬁce of the Assistant Secretary for Preparedness and Response, Department of Health and Human
+Services, Washington, DC 20201, USA
+2Radiation Research Program, Division of Cancer Treatment and Diagnosis, National Cancer Institute,
+National Institutes of Health, Bethesda, MD 20892, USA
+*Corresponding author: john.koerner@hhs.gov
+The public health and medical response to a radiological or nuclear incident requires the capability to sort, assess, treat, tri-
+age and to ultimately discharge, refer or transport people to their next step in medical care. The size of the incident and scar-
+city of resources at the location of each medical decision point will determine how patients are triaged and treated. This will
+be a rapidly evolving situation impacting medical responders at regional, national and international levels. As capabilities,
+diagnostics and medical countermeasures improve, a dynamic system-based approach is needed to plan for and manage the
+incident, and to adapt effectively in real time. In that the concepts and terms can be unfamiliar and possibly confusing,
+resources and a concept of operations must be considered well in advance. An essential underlying tenet is that medical evalu-
+ation and care will be managed by healthcare professionals with biodosimetry assays providing critical supporting data.
+INTRODUCTION
+There was substantial progress made over the last dec-
+ade that is still ongoing in the public health and med-
+ical planning and response to a nuclear detonation and
+radiological incident(1, 2). This includes investment,
+research and development in understanding the patho-
+physiology of radiation injury, developing medical
+countermeasures (MCMs) to mitigate injury post-
+exposure and exploring a range of diagnostic tests to
+assist the medical decision-makers. These efforts
+are largely supported by the Radiation and Nuclear
+Medical Countermeasures programme of the National
+Institute of Allergy and Infectious Diseases (NIAID)(3)
+and the Ofﬁce of Emergency Management (OEM)(4)
+and the Chemical, Biological, Nuclear and Radiological
+Threat Program of the Biomedical Advanced Research
+and Development Authority (BARDA)(5) in the Ofﬁce
+of the Assistant Secretary for Preparedness and
+Response (ASPR) within the Department of Health
+and Human Services. There is also signiﬁcant invest-
+ment in research and development by industry and
+substantial voluntary efforts by the Radiation Injury
+Treatment Network (RITN)(6).
+Since a nuclear detonation will be a resource-
+constrained environment, critical triage decisions
+must be made that are fair,(7) widely used and ensure
+care is provided in a manner that will save the most
+lives. The role of clinical diagnostics will differ
+depending on the location, and the goals of triage
+and care will evolve over time. The clinical diagnos-
+tics will be used for all aspects of triage and manage-
+ment, which will be trauma assessment ﬁrst, then
+radiation-focused triage, then ongoing evaluation of
+patients’ medical management and later epidemi-
+ology and long-term risk assessment.
+The purpose of this report is to (a) provide an
+overview of the resources and tools now available
+that were developed by the ASPR along with gov-
+ernment and non-government partners for planning
+and response to a nuclear detonation and large-scale
+radiological incident, (b) address ongoing issues and
+concepts related to biodosimetry and laboratory sup-
+port that would beneﬁt from clariﬁcation based on
+our experience in presentations and discussions and
+(c) present ideas under consideration that could fur-
+ther enhance national and international prepared-
+ness and response. This is not intended to be a
+detailed review of this complex and evolving subject.
+CONCEPTS IN BIODOSIMETRY
+The essential concept in medical evaluation and care
+is that patients will be managed by healthcare profes-
+sionals. Laboratory data are critical to support
+decision-making, but the data themselves are not the
+ﬁnal adjudicator of medical and public health assess-
+ment, triage, treatment and medical management.
+Assessment in the chaotic aftermath of a large-scale
+nuclear incident will require that any and all useful
+information be judiciously utilised, recognising that
+†Authors provided equal contributions to this paper.
+Published by Oxford University Press 2016. This work is written by (a) US Government employee(s) and is in the public domain in the US.
+Downloaded from https://academic.oup.com/rpd/article/172/1-3/38/2527787 by guest on 20 March 2026
+
+===== 페이지 2 / 9 =====
+the ﬁdelity of the information will improve as
+resources and personnel arrive. Initially, there will be
+a ‘scarce resources’ setting(8, 9) with the degree of
+scarcity varying by location and time. The import-
+ance of ‘fairness’ in triage and management has been
+discussed elsewhere(7). Together, all of the above con-
+cepts will impact the overall response including deci-
+sions for resource allocation, with a focus on
+medical and public health considerations as top pri-
+orities and decision drivers(2).
+The number and type of casualties will vary by the
+size, scope and location of the incident,(8) and any
+nuclear incident or large-scale radiological incident
+will be accompanied by fear of radiation and some
+reluctance of responders to enter a potentially con-
+taminated
+environment.
+The
+general
+concept
+of
+operations (CONOPS) used by the US government
+includes the RTR (Radiation TRiage, TReatment
+and TRansport) System(10) to help responders and
+decision-makers describe the presence of physical
+damage and radiation. This medical and geographical
+information systems (GIS)-based approach is currently
+being used for planning and during exercises;
+more speciﬁc guidance and technical resources are
+under development by a team lead by ASPR and
+the Federal Emergency Management Agency(11).
+Figure 1 illustrates the RTR medical response system
+and its medical and GIS-based response systems-
+based approach.
+Dose versus biodose
+This distinction between dose and biodose is critical
+as it not only leads to confusion for responders and
+the public, but has been the source of debate among
+experts because the unit ‘Gray (Gy)’ is generally
+applied to describe the dose and the biodose. Dose is
+a physical measure of radiation absorbed. The Unit
+is Gray which is the absorption of one joule of
+energy per kilogram of matter(13). The National
+Institute of Standards and Technology (NIST) estab-
+lishes standards for physical measurement and for
+calibration of instruments(13, 14). Properly measuring
+physical dose will provide the same result in any
+well-calibrated
+laboratory.
+Physical
+dosimetry
+is
+available
+during
+a
+radiological/nuclear
+incident
+including devices held by responders, attached to
+vehicles and located at a range of ﬁxed locations.
+The information from physical dose measurements
+and the time of the measurement following the inci-
+dent will be very helpful in constructing physical
+plots of dose. With radioactive decay following a
+Site
+Physical
+damage
+RTR 1
+RTR 2
+0
+RTR 3
+Site
+Medical care
+Assembly
+center
+EC
+GEOHealth system
+0
+0
+Radiation
+Predetermined
+site
+Evacuation
+center
+MC
+AC
+Figure 1. The RTR system and medical response, GIS systems approach. The response to a nuclear or large radiological
+disaster requires accounting for the physical destruction and the presence of radiation. The damage zones include severe,
+moderate and light damage, dangerous fallout zones and a zone where time in the zone is monitored. The RTR sys-
+tem(10) includes sites that will form and be determined spontaneously, RTR1, 2 and 3, and others that are predetermined
+sites (e.g. assembly centres, medical centres [Veterans Administration (VA), National Disaster Medical System (NDMS)
+and RITN], evacuation centres, community reception centres (CRCs), and Emergency Support Function (ESF) shelters).
+The coordination of information is accomplished using GeoHEALTH, which is the GIS approach developed by
+ASPR(12). (Figure reproduced with permission from Hrdrina et al.(10))
+39
+HELPING THE DECISION-MAKER
+Downloaded from https://academic.oup.com/rpd/article/172/1-3/38/2527787 by guest on 20 March 2026
+
+===== 페이지 3 / 9 =====
+nuclear detonation, the dose rate will rapidly decline
+over time.
+Biodose is a measurement obtained by exposing
+living systems, albeit cells, tissues or animals, to a
+known amount of radiation (dose) and examining a
+biological change, which might be a chromosomal,
+molecular,
+proteomic
+or
+other
+physiological
+response. A number of assays and parameters may
+be used in clinical application and methods are
+complementary(15, 16). The biological changes are
+assessed over a range of relevant doses using a
+population of subjects (e.g. mice or non-human pri-
+mates), and a ‘curve’ of speciﬁc biological change
+versus administered dose is produced. There may
+be a family of curves for different populations of
+people (e.g. male versus female, age-related, dia-
+betics versus non-diabetics, etc.). Following an inci-
+dent, the biological change is assessed by the assay,
+and by using the curve(s) of speciﬁc change versus
+dose, a ‘dose’ is estimated for that person. This is a
+biodose. It is not a speciﬁc measure of what the per-
+son received, but it takes a biological change, reads
+this change versus dose on a predetermined curve
+and then provides a ‘number’ to be used for triage
+and medical management. The unit generally used
+is also the Gray.
+The unit ‘Sievert’ is a measure of the health effect
+of low levels of ionising radiation on the human body
+accounting for different types of radiation and their
+effects on the tissue. For example, the same dose of
+neutron radiation may produce a larger biological
+effect than photons and the effect of neutrons com-
+pared to photon may differ for different parts of the
+body. Thus, for neutrons there is a tissue weighting
+factor that indicates the relative higher amount of
+damage compared to photons(17, 18). These weighting
+factors are used primarily in the lower levels of expos-
+ure. The impact of the mix of type of radiation from
+a nuclear detonation may be relevant as it may
+impact ultimate outcome. Not to dismiss their poten-
+tial impact, it is generally felt that for a ground burst
+nuclear detonation the impact of the weighting factor
+for neutrons is relatively small compared to that of
+the total dose from photons, A discussion of the need
+to account for neutron exposure is beyond the scope
+of this paper. Some of the biodosimetry assays may
+reﬂect the mixed exposure. While the initial sorting
+may employ a ‘biodose’ as part of the assessment, the
+clinician will be cognizant of the possibility that there
+may be forms of radiation that will have a greater bio-
+logical effect such as neutrons or charged particles,
+the latter if they are in contact with skin. As further
+data are obtained in reconstructing individual peo-
+ple’s exposure the unit Sievert may be used to account
+for the quality of the radiation.
+While a physical dose will essentially be identi-
+cal using NIST-traceable standards(14) and techni-
+ques, the biodose assigned to a person/patient may
+vary based on the speciﬁc assay used, variability
+among laboratories and by unknown biological/
+medical factors that might impact how one per-
+son’s body responds to radiation exposure com-
+pared to another’s. The laboratories conducting
+the assays should be checked (and possibly creden-
+tialled) to see how their results compare to one
+another using known and unknown radiated samples
+sent to them. Inter-laboratory comparison and stand-
+ardisation are critical. Various international stan-
+dards are often required before an assay is acceptable
+for clinical use such as those by the International
+Organization for Standardization (ISO)(19). In the
+USA, a laboratory providing results for clinical use
+are generally CLIA-certiﬁed (Clinical Laboratory
+Improvement Amendments) by the Centers for
+Medicare & Medicaid Services(20).
+The biodose number is given in Gray, and this
+number is provided to the healthcare professional for
+helping to assess, triage and treat the patient. The
+number by itself does not determine medical man-
+agement. There is some confusion among experts in
+the radiological/nuclear community that the US gov-
+ernment triage system is ‘dose-based’ which is not
+correct. The approach is to use all available informa-
+tion for initial sorting and triage including estimates
+of physical exposure, for example, knowing that
+someone was in an area that had little to no prompt
+radiation and fallout will be extraordinarily useful as
+it can rule out the need to assess radiation injury.
+The ‘biodose’ result from the laboratory is used
+along with consideration for trauma and/or burn
+(called combined injury) and in the context of pre-
+existing and concurrent medical conditions to help
+in the initial sorting and triage. That the unit from
+the biodosimetry assays and physical dosimetry is
+‘Gray’ underlies some of this confusion.
+Repeat assessments
+The critical tenet, that medical evaluation and care
+are managed by healthcare professionals with biodosi-
+metry tools providing critical supporting data, is
+exempliﬁed in the approach employing repeat assess-
+ments and adaptive management as espoused by the
+emergency medical services community. For example,
+the steps in SALT Mass Casualty Triage Algorithm
+(Sort, Assess, Lifesaving Interventions, Treatment/
+Transport)(21) were adapted for use during a mass cas-
+ualty radiation emergency. In essence, a person’s
+assigned speciﬁc triage category (Immediate, Delayed,
+Minimal, Expectant) may change as a person’s
+medical condition worsens or improves, and will also
+depend on resource scarcity(22). A single biodose
+number may be helpful in determining the course of
+treatment (e.g. a completely normal blood count for
+2–3 d following an incident or a very abnormal blood
+count within the ﬁrst 24 h can help determine if there
+40
+C. N. COLEMAN AND J. F. KOERNER
+Downloaded from https://academic.oup.com/rpd/article/172/1-3/38/2527787 by guest on 20 March 2026
+
+===== 페이지 4 / 9 =====
+was radiation exposure). It will allow initial sorting
+into a group of people who may not need immediate
+attention versus a group who needs referral for further
+diagnostic
+evaluation.
+Nonetheless,
+the
+ultimate
+assessment of a person’s medical condition is deter-
+mined following repeated assessments, intervention
+and examination of the response to medical interven-
+tion as is done in all aspects of medical care. In this
+regard, the biodose-based approach that underlies the
+US planning and response is fully consistent with the
+METREPOL (MEdical TREatment ProtocOLs for
+Radiation Accident Victims) approach established in
+Europe(23) in that the medical decisions by knowl-
+edgeable professionals determine the clinical course.
+These include the judicious use of biomarkers of radi-
+ation exposure which may utilise standard medical
+blood tests such as a complete blood count and
+specialised biodosimetry assays, which the medical
+management team consider.
+Sullivan et al.(15), analysed the biodosimetry
+techniques
+available
+and
+illustrated
+how
+these
+would be part of serial assessment. In Figure 2, the
+steps in triage, which depend on the observation of
+the physical infrastructure, patient examination,
+estimated physical dose ,and use of diagnostic tests
+are shown. The importance of an integrated clinical
+diagnostics system to provide laboratory surge
+capacity and diagnostic information is described
+below.
+Partial body- and organ-speciﬁc biodosimetry
+The need to assess partial body exposure as part of
+triage during an emergency response is a recurring
+issue. While beyond the scope of this paper, in gen-
+eral the models of radiation injury indicate that for a
+ground burst detonation it will be very uncommon
+for a victim to only receive prompt radiation that
+leaves a part of the body unexposed to any radiation.
+Furthermore, the vast majority of radiation exposure
+will be from fallout so that the person is exposed to
+whole body radiation, although it may well be het-
+erogeneous. Should a segment of the marrow receive
+no or very low dose, this will result in a marrow
+autograft in which the estimate of that person’s
+exposure may be an overestimate of the severity of
+their radiation injury. In this instance, the person
+would have been over-triaged (i.e. triaged to a worse
+category compared to the actual severity of their
+injury), but this will play out as a more favourable
+clinical course; therefore, the approach used in triage
+would have been conservative by bringing this per-
+son to medical attention. Caution must be exercised
+by the clinician to consider that some patients may
+Physical
+location &
+dosimetry
+Medical
+history
+Physical
+examination
+T1
+Home, or to
+personal MD
+Suspicious for
+rad exposure-
+use diagnostics
+Medical care
+needed
+Delayed
+Expectant
+Immediate
+Minimal
+T2
+POC
++
+T4
+T3
+–
+HTS
+Home, or to
+personal MD
+Time
+Scarce resources,
+crisis standards of care
+Scarce resources,
+begins to resolve
+Return to “normal” and
+ongoing management
+Time 0
+T
+Delayed
+Immediate
+Minimal
+Triage (                ) stepwise process
+Figure 2. Stepwise triage process after a nuclear detonation. Given that there may be hundreds of thousands of casualties
+and a scarce resources setting, serial determinations are important for determining who needs further assessment, whether
+or not medical interventions are needed and, if so, where can the person be sent based on an estimate of the severity of the
+injury. Serial analysis helps match the medical condition with the resources and expertise needed. T – Triage (T1 is ﬁrst tri-
+age, T2, second, etc.). POC – Point of Care. HTS – High Throughput Screening: −means normal, + means further evalu-
+ation or treatment necessary. Triage tiles (shaded boxes) represent categories in Coleman et al.(22) (Figure reproduced
+with permission from Coleman et al.(22))
+41
+HELPING THE DECISION-MAKER
+Downloaded from https://academic.oup.com/rpd/article/172/1-3/38/2527787 by guest on 20 March 2026
+
+===== 페이지 5 / 9 =====
+be ‘over triaged’ so as to avoid the possibility of
+triaging a patient into the ‘Expectant’ category (e.g.
+to receive only palliative care) when they would
+actually beneﬁt from additional intervention and
+should instead be triaged into the ‘Immediate’ or
+‘Delayed’ category depending on the resources avail-
+able. This caution emphasises the important need
+and purpose for the repeated triage and regular
+reassessment of the patient.
+That dose heterogeneity is not a major consider-
+ation in the initial triage does not mean that bio-
+markers that can rapidly and accurately provide
+information on heterogenous exposure are not poten-
+tially useful. Currently, under study is the possibility
+of having biomarkers for organ-speciﬁc injury (e.g.
+marrow, vascular system, heart, lung, gastrointestinal
+tract, liver and kidney). Such an assessment, if pos-
+sible, would help in medical management such that
+organ-speciﬁc interventions if developed would be uti-
+lised at some future point. Organ-speciﬁc biomarkers
+would also help in the reconstruction of hetero-
+geneous exposure.
+CONCEPTS IN DECISION SUPPORT
+Tools for decision-makers
+Recognising the complexity and scope of a nuclear
+detonation, ASPR continually works with federal,
+state and local partners, academia and global part-
+ners to develop tools and informational documents
+for decision-makers, planners and responders. The
+Radiation Emergency Medical Management (REMM)
+website(24) was developed by ASPR and the National
+Library of Medicine (NLM) to assist with education,
+training,
+planning
+and
+incident-
+and
+patient-
+management. A ‘Medical-Decision’ model(25) was
+proposed based on experience with the Fukushima
+Daiichi radiation emergency that emphasised the
+need for subject matter experts to work closely
+with the overall incident decision-maker who is
+likely to be a government leader without formal
+training in medicine and radiation science. The
+capability to engage appropriate subject matter
+experts to advise leadership includes the FDA/
+CDC-led Advisory Team for Environment, Food
+and Health (A-Team)(26), Department of Energy’s
+Radiation Emergency Assistance Center/Training
+Site (REAC/TS)(27), ASPR’s developing Subject
+Matter Advisory Resource Team (SMART Team),
+Veteran’s Administration (VA) Medical Emergency
+Radiological Response Team (MERRT)(28) and
+RITN6.
+To further facilitate the ability of the decision-maker
+to rapidly understand key concepts and components of
+a nuclear or radiological incident, Medical Planning
+and Response Manual for a Nuclear Detonation: A
+Practical Guide was prepared(29) and published in a
+summary form(30). In addition, a dynamic management
+tool will soon be available on the ASPR website (per-
+sonal communication). Finally, a playbook pre-
+pared speciﬁcally for state and local planners and
+responders is also available(31).
+Nuclear Incident Management Enterprise
+Working with a broad range of experts and collabo-
+rators, a number of capabilities, concepts, tools, and
+documents were developed, and is named Nuclear
+Incident Management Enterprise (NIME)(1). The inte-
+grated clinical diagnostics system and biodosimetry
+tools and capacity are critical components of NIME,
+and development is ongoing.
+Evolution of an Integrated Clinical Diagnostics
+System - biodosimetry and mass casualty triage come
+together
+After the Goiânia, Brazil radiation incident in 1987,
+there was a broad consensus among science, medical
+and
+emergency
+management
+professionals
+that
+coordinated radiation biodosimetry surge was neces-
+sary to manage mass casualty radiation incidents
+and to rapidly assess and triage potential and
+actual casualties for exposure and medical interven-
+tion. Since then, international biodosimetry net-
+works were established and
+include the
+World
+Health Organization’s BioDoseNet,(32) the European
+Realizing the European Network of Biodosimetry
+(RENEB)(33) and MULTIBIODOSE(34) projects, as
+well as, numerous other national reference and surge
+laboratory systems across the globe. All of these
+efforts recognise the need for multi-parametric ana-
+lysis coupled with rigorous quality assurance/quality
+control, speed in sample collection and analysis,
+high-throughput technology for sample preparation
+and analysis, strong linkage with medical triage and
+treatment surge, and robust information manage-
+ment systems.
+In addition to these efforts and following similar
+principles, in 2005 the US government laid the scien-
+tiﬁc and policy groundwork for developing US bio-
+dosimetry surge capacity in the event of nuclear
+detonation. In 2009, the concept for a Radiation
+Laboratory Network (Rad-LN) was formulated, and
+in 2010 a Biodosimetry Architecture was proposed
+to incorporate the US strategy for medical counter-
+measures development, as well as to link the US
+planning and response with global partners based on
+previous
+experience
+in
+radiation
+incidence
+and
+expertise
+available
+from
+partner
+countries.
+The
+Fukushima Daiichi radiation emergency in 2011
+reinforced the global need for biodosimetry surge
+and provided important lessons for the US scientists
+and planners to incorporate mass casualty triage and
+a
+novel
+Integrated
+Clinical
+Diagnostics
+System
+42
+C. N. COLEMAN AND J. F. KOERNER
+Downloaded from https://academic.oup.com/rpd/article/172/1-3/38/2527787 by guest on 20 March 2026
+
+===== 페이지 6 / 9 =====
+(ICDS)(1) to assess radiation injury via numerous
+parameters into the development of a national
+CONOPS for nuclear detonation. Figure 3 illustrates
+how an ICDS integrates with the national emergency
+response.
+Following a nuclear detonation or large radiation
+incident, hundreds of thousands of people are likely
+to require assessment, diagnosis, and medical treat-
+ment for trauma and/or radiation exposure. In this
+scarce-resources setting, casualty assessment cri-
+teria and triage will take place early in the incident
+in the ﬁeld or at healthcare facilities close to the
+detonation. The primary focus of the casualty
+assessment and triage will be on physical trauma,
+burns, emergent medical conditions and various
+acute exposures (e.g. chemical, smoke inhalation,
+etc.), but exposure to radiation is an important con-
+sideration as well. Biodosimetry tools, including
+those for rapid use at the point-of-care (POC), are
+being developed for use in the ﬁrst 24–48 h to help
+in triage and also in determining medical counter-
+measure use. After the ﬁrst few days and at a fur-
+ther
+distance
+from
+the
+incident,
+radiation
+assessment and triage for surviving casualties will
+be more accurate and help in patient management,
+and also in determining who may need additional
+follow-up for radiation exposure. These technolo-
+gies are discussed in greater detail in other reports
+from the 2015 BioDose conference.
+In this resource-constrained environment, critical
+triage decisions must be made that are fair, widely
+used, and ensure care is provided in a manner that
+will save the most lives(7). To support triage decisions
+and the provision of care, laboratory surge including
+standard laboratory tests and biodosimetry will be
+required at as many POCs as possible. Since these
+POCs will be distributed within the impacted area,
+regionally
+and
+across
+the
+Nation,
+a
+national
+CONOPS(1) will facilitate not only that appropriate
+diagnostics and triage capabilities are ready and in
+place, but also help ensure that personnel, counter-
+measures, facilities and supplies are properly co-
+located. As described in NIME,(1) a User-Managed
+Inventory (UMI) model(35) was proposed and a pilot
+project
+was
+implemented
+in
+the
+New
+York
+Metropolitan Area. UMI, along with other inven-
+tory strategies such as vendor managed inventory,
+will be critical to ensuring that adequate amounts of
+certain countermeasures (e.g. cytokines) are available
+for distribution under a national CONOPs. This
+overall national approach to resource distribution
+and stockpiling is in the conceptual and early plan-
+ning stages.
+The proposed ICDS is an amalgam of the RTR
+functional model with a consensus biodosimetry
+architecture(15) to support the massive surge for
+assays such as lymphocyte depletion kinetics (com-
+plete blood count and differential), dicentric analysis
+(cytogenetics), radiobioassay and other novel assays
+and diagnostics under development by NIAID and
+BARDA
+(Figure
+3).
+Importantly,
+the
+national
+CONOPs and ICDS systems recognise that the role
+CDC Urine
+Radionuclide
+Screen Lab
+Biodosimetry
+Core Labs
+(n = 4-5)
+Satellite
+readers
+Surge labs:
+state & federal
+Hematology
+& surge
+capacity
+International biodosimetry labs &
+groups,  including WHO and others
+Hematology
+Cytogenetics
+Radio-bioassay
+New molecular
+diagnostics
+Hospitals
+Immediate triage and
+long term follow-up
+Decontamination and MCM
+therapy determination
+Definitive dose determination and
+long term follow-up
+Pipeline development for emerging and
+high-throughput technologies
+Commercial
+Labs
+CMCRs
+Industry
+BARDA
+Mobile or
+Other Surge
+Integrated
+ Clinical
+Diagnostics
+System
+Integrated
+ Clinical
+Diagnostics
+System
+Figure 3. Integrated clinical diagnostic system. Illustrated is the concept of how a biodosimetry architecture might be uti-
+lised at various times, locations and stages following an incident. Details of the speciﬁc components are in NIME(1) with
+this overall system and some of the components in development while others, such as novel molecular diagnostics, are in
+research laboratories.
+43
+HELPING THE DECISION-MAKER
+Downloaded from https://academic.oup.com/rpd/article/172/1-3/38/2527787 by guest on 20 March 2026
+
+===== 페이지 7 / 9 =====
+of clinical diagnostics will differ depending on
+the location of the medical assessment relative to
+the incident (local, regional or at a distant medical
+centre) and also the time after the incident.
+In addition to the speciﬁc assays, critical comp-
+onents of the ICDS include capabilities that are useful
+to ﬁrst responders, intermediate/stabilising care and
+deﬁnitive care. These capabilities include data man-
+agement with integrated dose estimation and medical
+management guidance; assay and data validation;
+privacy requirements; and mapping and modelling
+capabilities
+from
+the
+Interagency
+Modeling
+and
+Atmospheric Assessment Center (IMAAC)(36) and
+Federal Radiological Monitoring and Assessment
+Center
+(FRMAC)(37).
+These
+critical
+components
+necessitate the development of a coordinated informa-
+tion technology (IT) solution for local capabilities
+analysis that includes various parameters of locally
+available diagnostic devices (e.g. make, model, type,
+normal reagent reserve, estimated throughput and
+geographical location) with data associated with GIS
+coordinates to integrate into the overall GIS plat-
+forms. Public/private partnerships will be needed to
+conduct physical surveys of existing locations, types
+and capabilities of analysers in an area to be plotted
+in GIS systems integrated with real-time weather,
+plume, people movement routing, infrastructure dam-
+age or other layers(12). An IT architecture for data
+collection and dissemination with a simple, common
+cloud-based interface that leverages existing robust,
+web-based data management systems (e.g. RITN cen-
+tres, VA facilities, REMM(24) and commercial blood
+laboratories) is desired. It would include patient-
+speciﬁc ﬁelds, allow downstream patient access to
+data, and would also incorporate automated assay-
+based dose estimators linked to medical management
+guidance. Finally, operating procedures are necessary
+to ensure consistent application of best practices for
+local/regional patient data and sample management,
+user guidance for component tools, and data validity
+and quality assurance.
+Taken together, the ICDS framework allows for the
+use of a systems approach that incorporates recog-
+nised requirements for biodosimetry, triage systems,
+prudent medical management, UMI, operational real-
+ities and a national approach to radiation response. It
+would be logically supported by and integrated with
+international projects, and utilise a scalable, ﬂexible,
+evidence-based, sustainable approach based partly on
+existing capabilities. Consistent with the overall all-
+hazards planning and response by the US govern-
+ment, the approach and capability developed for a
+nuclear incident would be useful for other large-scale
+disasters. When applied to medical, operational and
+strategic decision support needs, implementation of
+this framework ﬁlls a major gap in medical and public
+0 Gy
+0.25 Gy
+0.75 Gy
+2 Gy
+4 Gy
+0 Gy for sure
+6 Gy
+10 Gy
+Home
+Home, see doctor
+Home, possibly epidemiology study
+Home, DCA, epidemiology study
+(for all above this approximate level)
+Further evaluation, outpatient,
+MCM if timely assessment
+Hospital or
+RITN Center
+Admit for treatment
+Admit for treatment, palliative and
+supportive care and managed course
+Admit for treatment, palliative and
+supportive care
+Lives saved
+Dose or Biodose
+Figure 4. Medical decision-makers are responsible for treatment. An assessment of an individual’s dose is made as in
+Figure 1. In the approach illustrated any person with a dose >2 Gy would be considered in need of immediate medical assess-
+ment and possible intervention. Those with doses above 4 Gy would require hospitalisation. For doses above ~0.75 Gy but
+below 2 Gy one would likely be considered for a dicentric chromosome analysis at some point to estimate additional lifetime
+risk of radiation-induced cancer. Those without medical conditions that need immediate attention would be sent from the
+acute medical management areas to ‘home’ so that those in immediate need of care can receive attention. Home may be their
+own home or some temporary shelter or other accommodation. People with minor injuries, even broken bones and some
+injury may be sent to non-acute medical care so that resources are used to address life-threatening injuries.
+44
+C. N. COLEMAN AND J. F. KOERNER
+Downloaded from https://academic.oup.com/rpd/article/172/1-3/38/2527787 by guest on 20 March 2026
+
+===== 페이지 8 / 9 =====
+health response to a major radiation incident and has
+the potential to improve outcomes for a large propor-
+tion of patients.
+An overview of sorting and triage
+Figure 4 illustrates how the use of knowledge of a
+person’s physical dose or an assay of their biodose
+will enable medical decision-makers to sort, assess,
+triage and treat people. By being able to make effect-
+ive decisions, resources can be allocated to those
+who need them. Therefore, given the size and capa-
+city of the US healthcare system, collaborations
+with experts, and the national and international
+planning and coordination of resources, it may be
+possible to deliver very high quality care to many
+hundreds of thousands of people after a nuclear
+incident,
+thereby
+saving
+lives
+whose
+outcome
+depends on the use of appropriate triage and medical
+management.
+CONCLUSIONS
+The public health and medical response to a radio-
+logical and/or nuclear incident requires the capability
+to sort, assess, treat, triage and to ultimately dis-
+charge, refer or transport people to their next step in
+medical or deﬁnitive care. The response will be a
+dynamic situation likely characterised by a scarcity
+of resources for which preplanning is needed. It
+will be a challenge to effectively operationalise a
+response on a regional, national, and international
+level, therefore the national CONOPS and ICDS are
+critical components.
+The use of the unit ‘Gray’ to specify both physical
+dose and also the output of biodosimetry assays can
+lead to some confusion; however, the biological
+response of the person (i.e. their ‘biodose’) is what
+will help guide medical management. An under-
+standing of the requirements for biodosimetry, triage
+and treatment decisions, and massive public health
+and medical response informs and modiﬁes the over-
+all large-scale operational response. The bioassays
+need to be reproducible within and between labora-
+tories, and some standardisation, inter-laboratory
+comparison and credentialing are necessary as the
+‘biodose’ number will be an extraordinarily import-
+ant measurement. Nonetheless, as is true in medical
+care in general, no single number by itself deter-
+mines the course of action. Medical evaluation and
+care will be managed by healthcare professionals
+with biodosimetry tools providing critical supporting
+data. Further reﬁning and expanding the currently
+available methods and developing new measures,
+potentially including assessment of organ-speciﬁc
+injury, will add to the ability to effectively manage
+the incident and provide the best care.
+The biodosimetry tools and assays in development
+will enhance the utility of the ‘biodose’ and also
+likely guide development of new classes of MCMs.
+The science and technology developed for radiation
+incidents
+can
+both
+beneﬁt
+from
+and
+enhance
+ongoing research in cancer care and in understand-
+ing the consequences of environmental hazards. This
+dual-utility concept enhances investment by govern-
+ment supported research and development and prod-
+uct development by academia and industry.
+DISCLAIMER
+The ideas, views and opinions expressed in this paper
+are strictly those of the authors and do not necessar-
+ily represent the views of the Ofﬁce of the Assistant
+Secretary for Preparedness and Response, National
+Cancer Institute, Department of Health and Human
+Services, or the United States Government. No
+endorsement of products is implied.
+ACKNOWLEDGEMENTS
+The authors thank the many contributors to the
+development of the products, tools and knowledge
+contained in this manuscript. Dr Denis Fitzgerald
+provided
+editorial
+recommendations.
+Alicia
+A.
+Livinski from the NIH Library provided editorial
+review and assistance with manuscript preparation.
+REFERENCES
+1. Coleman, C. N. et al. Public health and medical pre-
+paredness for a nuclear detonation: the nuclear incident
+medical enterprise. Health Phys. 108, 149–160 (2015).
+2. Homeland
+Security
+Council
+Interagency
+Policy
+Coordination
+Subcommittee
+for
+Preparedness
+and
+Response
+to
+Radiological
+and
+Nuclear
+Threats
+Planning
+Guidance
+for
+Response
+to
+a
+Nuclear
+Detonation, second edn. (Washington, DC: Homeland
+Security
+Council)
+(2010)
+http://www.remm.nlm.gov/
+PlanningGuidanceNuclearDetonation.pdf.
+3. National Institutes of Health, National Institute of
+Allergy
+and
+Infectious
+Diseases.
+Radiation
+and
+Nuclear Countermeasures Program. http://www.niaid.
+nih.gov/topics/radnuc/pages/default.aspx.
+4. U.S. Department of Health and Human Services,
+Ofﬁce of the Assistant Secretary for Preparedness and
+Response. Ofﬁce of Emergency Management. http://
+www.phe.gov/about/oem/Pages/default.aspx.
+5. U.S. Department of Health and Human Services, Ofﬁce
+of the Assistant Secretary for Preparedness and Response,
+Biomedical Advanced Research and Development
+Authority. Chemical, Biological, Radiological, and
+Nuclear (CBRN) Threat Programs (2013). https://www.
+medicalcountermeasures.gov/barda/cbrn.
+6. Radiation Injury Treatment Network. http://www.ritn.
+net/.
+7. Caro,
+J.
+J.,
+DeRenzo,
+E.
+G.,
+Coleman,
+C.
+N.,
+Weinstock,
+D.
+M.
+and
+Knebel,
+A.
+R.
+Resource
+45
+HELPING THE DECISION-MAKER
+Downloaded from https://academic.oup.com/rpd/article/172/1-3/38/2527787 by guest on 20 March 2026
+
+===== 페이지 9 / 9 =====
+allocation after a nuclear detonation incident: unaltered
+standards of ethical decision making. Disaster Med.
+Public Health Prep. 5, S46–S53 (2011).
+8. Knebel, A. R. et al. Allocation of scarce resources after
+a nuclear detonation: setting the context. Disaster Med.
+Public Health Prep. 5, S20–S31 (2011).
+9. Coleman, C N. et al. Scarce resources for nuclear det-
+onation: project overview and challenges. Disaster Med.
+Public Health Prep. 5, S13–S19 (2011).
+10. Hrdina, C. M., Coleman, C. N., Bogucki, S., Bader, J. L.,
+Hayhurst, R. E., Forsha, J. D., Marcozzi, D., Yeskey, K.
+and Knebel, A. R. The ‘RTR’ medical response system
+for nuclear and radiological mass-casualty incidents:
+a functional TRiage-TReatment-TRansport medical
+response model. Prehosp. Disaster Med. 24, 167–178
+(2009).
+11. Federal Emergency Management Agency. http://www.
+fema.gov/.
+12. Ofﬁce of the Assistant Secretary for Preparedness and
+Response.
+GeoHEALTH.
+http://geohealth.hhs.gov/
+arcgis/home/.
+13. National
+Institute
+of
+Standards
+and
+Technology
+Physical
+Measurement
+Laboratory.
+High-Dose
+Dosimetry. http://www.nist.gov/pml/div682/grp02/high-
+dose-dosimetry.cfm.
+14. National Institute of Standards and Technology. http://
+www.nist.gov/.
+15. Sullivan, J. M., Prasanna, P. G., Grace, M. B., Wathen,
+L. K., Wallace, R. L., Koerner, J. F. and Coleman, C. N.
+Assessment of biodosimetry methods for a mass-casualty
+radiological incident: medical response and management
+considerations. Health Phys. 105, 540–554 (2013).
+16. Blumenthal, D. J., Sugarman, S. L., Christensen, D.
+M., Wiley, A. L., Livingston, G. K., Glassman, E. S.,
+Koerner, J. F., Sullivan, J. M. and Hinds, S. Role of
+dicentric analysis in an overarching biodosimetry strat-
+egy for use following a nuclear detonation in an urban
+environment. Health Phys. 106, 516–522 (2014).
+17. Wrixon, A. D. New ICRP recommendations. J. Radiol.
+Prot. 28, 161–168 (2008).
+18. ICRP. The 2007 Recommendations of the International
+Commission
+on
+Radiological
+Protection.
+ICRP
+Publication 103. Ann. ICRP 37, 2–4 (2007).
+19. International Organization for Standardization. http://
+www.iso.org/iso/home.htm.
+20. Centers for Medicare & Medicaid Services. Clinical
+Laboratory
+Improvement
+Amendments
+(CLIA).
+https://www.cms.gov/Regulations-and-Guidance/Legisla
+tion/CLIA/index.html?redirect=/clia/.
+21. National Institutes of Health, National Library of
+Medicine,
+Ofﬁce
+of
+the
+Assistant
+Secretary
+for
+Preparedness and Response. SALT Mass Casualty
+Triage Algorithm (Sort, Assess, Lifesaving Interventions,
+Treatment/Transport) — Adapted for a Very Large
+Radiation
+Emergency.
+http://www.remm.nlm.gov/saltt
+riage.htm.
+22. Coleman, C. N., Weinstock, D. M., Casagrande, R.,
+Hick, J. L., Bader, J. L., Chang, F., Nemhauser, J. B.
+and Knebel, A. R. Triage and treatment tools for use in
+a scarce resources-crisis standards of care setting after a
+nuclear detonation. Disaster Med. Public Health Prep.
+5, S111–S121 (2011).
+23. Fliedner,
+T.
+M,
+Powles,
+R.,
+Sirohi,
+B.
+and
+Niederwieser, D.
+Radiologic and nuclear events: the
+METREPOL severity of effect grading system. Blood
+111, 5757–5759 (2008).
+24. National Institutes of Health, National Library of
+Medicine (2015). In: Radiation Emergency Medical
+Management: REMM. Bader, J. L., Ed. (Bethesda, MD:
+National Library of Medicine) http://remm.nlm.gov. (23
+June 2016, date last accessed).
+25. Koerner, J. F., Coleman, C. N., Murrain-Hill, P.,
+FitzGerald, D. J. and Sullivan, J. M. The medical deci-
+sion model and decision maker tools for management of
+radiological and nuclear incidents. Health Phys. 106,
+645–651 (2014).
+26. Advisory Team for Environment, Food and Health.
+https://crcpd.org/ATeam/Ateam.htm.
+27. Radiation Emergency Assistance Center/Training Site
+(REAC/TS). https://orise.orau.gov/reacts/.
+28. Veterans Health Administration. Medical Emergency
+Radiological Response Team (MERRT). http://www.va.
+gov/VHAEMERGENCYMANAGEMENT/CEMP/
+CEMP_MERRT.asp.
+29. U.S. Department of Health and Human Services,
+Ofﬁce of the Assistant Secretary for Preparedness and
+Response Medical planning and response manual for a
+nuclear detonation: a practical guide 146, (Washington,
+D.C.:
+U.S.
+Department
+of
+Health
+and
+Human
+Services)
+(2012).
+http://www.phe.gov/Preparedness/
+planning/nuclearresponsemanual/Documents/medplan
+resmannucdet-guide-ﬁnal.pdf.
+30. Coleman, C N. et al. Medical planning and response for
+a
+nuclear
+detonation:
+a
+practical
+guide.
+Biosecur
+Bioterror 10, 346–371 (2012).
+31. Murrain-Hill, P. et al. Medical response to a nuclear
+detonation: creating a playbook for state and local plan-
+ners and responders. Disaster Med. Public Heal Prep.
+5, S89–S97 (2011).
+32. World Health Organization. WHO BioDoseNet. http://
+www.who.int/ionizing_radiation/a_e/biodosenet/en/.
+33. Realizing the European Network of Biodosimetry
+(RENEB). http://reneb.eu/.
+34. Multibiodose. http://www.multibiodose.eu/.
+35. Coleman, C. N. et al. User-managed inventory: an
+approach to forward-deployment of urgently needed
+medical countermeasures for mass-casualty and terror-
+ism incidents. Disaster Med. Public Health Prep. 6,
+408–414 (2012).
+36. U.S. Department of Homeland Security. Interagency
+Modeling
+and
+Atmospheric
+Assessment
+Center
+(IMAAC). http://www.dhs.gov/imaac.
+37. National Nuclear Security Administration. Federal
+Radiological
+Monitoring
+and
+Assessment
+Center.
+http://www.nnsa.energy.gov/aboutus/ourprograms/emer
+gencyoperationscounterterrorism/respondingtoemer
+gencies-0-1.
+46
+C. N. COLEMAN AND J. F. KOERNER
+Downloaded from https://academic.oup.com/rpd/article/172/1-3/38/2527787 by guest on 20 March 2026

@@ -1,0 +1,31 @@
+{
+  "description": "규칙 엔진에 넣을 수 있는 시나리오 예시 두 가지 (JSON 그대로는 앱이 자동 로드하지 않음 — 참고·복사용).",
+  "scenarios": [
+    {
+      "label": "다인원·자원 제한 (R001 등이 뜨기 쉬운 예)",
+      "scenario": {
+        "incident_scale": "regional",
+        "elapsed_hours": 24,
+        "num_exposed": 150,
+        "exposure_known": false,
+        "partial_body_suspected": false,
+        "internal_contamination_suspected": false,
+        "symptom_severity": "none",
+        "resource_level": "minimal"
+      }
+    },
+    {
+      "label": "내부 오염 의심 (R003)",
+      "scenario": {
+        "incident_scale": "local",
+        "elapsed_hours": 8,
+        "num_exposed": 12,
+        "exposure_known": false,
+        "partial_body_suspected": false,
+        "internal_contamination_suspected": true,
+        "symptom_severity": "mild",
+        "resource_level": "moderate"
+      }
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "spec_version": "0.2",
+  "documentation_targets": [
+    "IAEA Emergency Preparedness and Response — Biodosimetry (EPR-Biodosimetry)",
+    "IAEA EPR — Medical aspects of radiological emergencies (EPR-Medical)",
+    "MULTIBIODOSE / EURADOS guidance on biological dosimetry tools (as applicable)"
+  ],
+  "evidence_status_enum": [
+    "direct_source_logic",
+    "needs_confirmation",
+    "placeholder"
+  ],
+  "when_operators_documentation": {
+    "equality": "field name equals scalar (boolean, string, number)",
+    "categorical_in": "fieldname_in: [allowed values]",
+    "numeric_thresholds": "num_exposed_min|max, elapsed_hours_min|max (inclusive)"
+  },
+  "input_schema": {
+    "description": "Scenario features used only for planning-style decision support (not diagnosis).",
+    "fields": [
+      {
+        "name": "incident_scale",
+        "type": "string",
+        "allowed_values": ["local", "regional", "national", "international"],
+        "notes": "사고·대응의 지리적·조직적 범위를 거칠게 나타냄."
+      },
+      {
+        "name": "elapsed_hours",
+        "type": "number",
+        "constraints": { "min": 0 },
+        "notes": "노출 시각이 불명확하면 추정값·구간으로 입력하고 불확실성 노트를 활성화."
+      },
+      {
+        "name": "num_exposed",
+        "type": "integer",
+        "constraints": { "min": 0 },
+        "notes": "잠재 노출·의심 인원 수(선별 기준은 별도 운영 정의)."
+      },
+      {
+        "name": "exposure_known",
+        "type": "boolean",
+        "notes": "노출 사실·경로·선량 정보의 가용 여부(단정이 아닌 계획 입력)."
+      },
+      {
+        "name": "partial_body_suspected",
+        "type": "boolean",
+        "notes": "동질적 전신피폭 가정이 깨질 수 있는지 여부."
+      },
+      {
+        "name": "internal_contamination_suspected",
+        "type": "boolean",
+        "notes": "흡입·섭취 등 내부오염 가능성(확정 아님)."
+      },
+      {
+        "name": "symptom_severity",
+        "type": "string",
+        "allowed_values": ["none", "mild", "moderate", "severe"],
+        "notes": "임상 판단 대체 금지. 의료기관 평가가 우선임을 전제로 한 거친 입력."
+      },
+      {
+        "name": "resource_level",
+        "type": "string",
+        "allowed_values": ["minimal", "moderate", "full"],
+        "notes": "실험실 처리량·숙련도·장비 가용성을 단일 서술자로 압축."
+      }
+    ]
+  },
+  "output_schema": {
+    "description": "규칙 발화 결과 + 집계 레이어. 임상 처치 지시나 진단명이 아님.",
+    "per_rule_outputs": {
+      "response_priority": {
+        "type": "string",
+        "allowed_values": ["critical", "high", "medium", "low"]
+      },
+      "biodosimetry_focus": {
+        "type": "string",
+        "allowed_values": [
+          "clinical_first",
+          "triage_screening",
+          "standard_reference_assay_planning",
+          "heterogeneous_partial_body_planning",
+          "internal_contamination_pathway",
+          "timing_and_resampling_planning",
+          "capacity_constrained_planning",
+          "coordination_and_information_gap",
+          "no_automated_recommendation"
+        ],
+        "notes": "짧은 기계 판독용 태그. 자연어 설명은 별도 필드."
+      },
+      "assay_tags": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "allowed_values": [
+            "CYTOGENETIC_REF_LAB",
+            "MICRONUCLEUS_OR_ALT_CYTOGENETIC",
+            "HEMATOLOGY_COUNTS_SUPPORTING",
+            "MOLECULAR_BIODOSIMETRY_REF_LAB",
+            "IN_VIVO_COUNTING_PLANNING",
+            "EXCRETION_BIOASSAY_PLANNING",
+            "PHYSICAL_RECONSTRUCTION_SUPPORT",
+            "NONE_SPECIFIC"
+          ]
+        },
+        "notes": "구체 검사는 기관 SOP·핵종·시간에 따라 달라짐. 태그는 계획 분류용."
+      },
+      "caution_codes": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "allowed_values": [
+            "NOT_A_MEDICAL_DEVICE_OUTPUT",
+            "EXPOSURE_SCENARIO_UNCERTAIN",
+            "PARTIAL_BODY_INTERPRETATION_LIMITS",
+            "INTERNAL_CONTAMINATION_CONFOUNDS_WB_BLOOD_MARKERS",
+            "TIME_SINCE_EXPOSURE_UNKNOWN_OR_WIDE",
+            "RESOURCE_BOTTLENECK",
+            "MASS_CASUALTY_TRIAGE_REQUIRED",
+            "ASSAY_CHOICE_REQUIRES_EXPERT_REVIEW"
+          ]
+        }
+      },
+      "reasoning_summary": { "type": "string" },
+      "evidence_status": {
+        "type": "string",
+        "allowed_values": ["direct_source_logic", "needs_confirmation", "placeholder"]
+      },
+      "source_hint": {
+        "type": "string",
+        "notes": "문헌 절·표 번호는 팀이 채워 넣기 전까지 TBD 허용."
+      }
+    },
+    "aggregated_outputs": {
+      "synthesized_priority": {
+        "type": "string",
+        "allowed_values": ["critical", "high", "medium", "low", "unresolved"]
+      },
+      "merged_focus_tags": { "type": "array", "items": { "type": "string" } },
+      "merged_assay_tags": { "type": "array", "items": { "type": "string" } },
+      "merged_caution_codes": { "type": "array", "items": { "type": "string" } },
+      "triggered_rule_ids": { "type": "array", "items": { "type": "string" } }
+    }
+  },
+  "aggregation_policy": {
+    "priority_order": ["critical", "high", "medium", "low"],
+    "priority_resolution": "여러 규칙이 발화되면 priority_order에서 가장 앞선 값을 synthesized_priority로 사용.",
+    "set_merge": "focus/assay/caution은 중복 제거 후 합집합.",
+    "unresolved": "발화 규칙이 0개이면 synthesized_priority는 unresolved."
+  },
+  "rules": [
+    {
+      "id": "R001",
+      "title": "다인원 + 자원 제한 → 선별·처리량 중심 계획",
+      "evidence_status": "direct_source_logic",
+      "source_hint": "IAEA EPR-Biodosimetry 등에서 다수 대상·자원 제약 하 선별(triage) 논의 — 정확한 절·문구는 팀이 인용",
+      "when": { "num_exposed_min": 100, "resource_level_in": ["minimal"] },
+      "then": {
+        "response_priority": "high",
+        "biodosimetry_focus": "triage_screening",
+        "assay_tags": ["NONE_SPECIFIC"],
+        "caution_codes": ["MASS_CASUALTY_TRIAGE_REQUIRED", "RESOURCE_BOTTLENECK", "ASSAY_CHOICE_REQUIRES_EXPERT_REVIEW"],
+        "reasoning_summary": "인원 규모가 크고 실험실 자원이 낮으면 모든 대상에 동일한 고부하 검사를 전제로 하기 어렵다는 운영 전제."
+      }
+    },
+    {
+      "id": "R002",
+      "title": "광역 이상 규모 + 다인원 → 조직적 조정·정보 공백 대비",
+      "evidence_status": "needs_confirmation",
+      "source_hint": "국가·국제 대응 프레임과의 정합성 확인 필요",
+      "when": { "incident_scale_in": ["national", "international"], "num_exposed_min": 50 },
+      "then": {
+        "response_priority": "high",
+        "biodosimetry_focus": "coordination_and_information_gap",
+        "assay_tags": ["NONE_SPECIFIC"],
+        "caution_codes": ["MASS_CASUALTY_TRIAGE_REQUIRED", "EXPOSURE_SCENARIO_UNCERTAIN"],
+        "reasoning_summary": "지리적·행정적 범위가 넓고 인원이 많으면 표본·데이터·역량 분산이 커질 수 있다는 계획 전제."
+      }
+    },
+    {
+      "id": "R003",
+      "title": "내부 오염 의심 → 외피폭 단일 혈액지표만으로는 계획 정보가 불완전할 수 있음",
+      "evidence_status": "needs_confirmation",
+      "source_hint": "EPR-Medical·내부피폭 관련 장과 정합성 검토",
+      "when": { "internal_contamination_suspected": true },
+      "then": {
+        "response_priority": "high",
+        "biodosimetry_focus": "internal_contamination_pathway",
+        "assay_tags": ["IN_VIVO_COUNTING_PLANNING", "EXCRETION_BIOASSAY_PLANNING"],
+        "caution_codes": ["INTERNAL_CONTAMINATION_CONFOUNDS_WB_BLOOD_MARKERS", "ASSAY_CHOICE_REQUIRES_EXPERT_REVIEW"],
+        "reasoning_summary": "내부 오염이 의심되면 체내·배설 기반 평가 경로를 계획에 포함할 필요가 있다는 일반적 방사선방어 관점."
+      }
+    },
+    {
+      "id": "R004",
+      "title": "부분피폭 의심 → 동질 전신선량 가정의 한계",
+      "evidence_status": "needs_confirmation",
+      "source_hint": "부분피폭·이질 선량에 대한 문헌 확인",
+      "when": { "partial_body_suspected": true },
+      "then": {
+        "response_priority": "medium",
+        "biodosimetry_focus": "heterogeneous_partial_body_planning",
+        "assay_tags": ["PHYSICAL_RECONSTRUCTION_SUPPORT", "CYTOGENETIC_REF_LAB"],
+        "caution_codes": ["PARTIAL_BODY_INTERPRETATION_LIMITS", "ASSAY_CHOICE_REQUIRES_EXPERT_REVIEW"],
+        "reasoning_summary": "국소·부분 조사는 해석 전제가 달라질 수 있어 물리·임상·검사 설계를 함께 검토할 필요."
+      }
+    },
+    {
+      "id": "R005",
+      "title": "노출 정보 불명 + 중증 증상 입력 → 임상 응급이 생물학적 선량평가보다 우선(계획 경고)",
+      "evidence_status": "needs_confirmation",
+      "source_hint": "의료 응급 대응 우선 원칙은 EPR-Medical 쪽과 대조",
+      "when": { "exposure_known": false, "symptom_severity_in": ["severe"] },
+      "then": {
+        "response_priority": "critical",
+        "biodosimetry_focus": "clinical_first",
+        "assay_tags": ["NONE_SPECIFIC"],
+        "caution_codes": ["NOT_A_MEDICAL_DEVICE_OUTPUT", "EXPOSURE_SCENARIO_UNCERTAIN"],
+        "reasoning_summary": "중증 소견이 제보되면 본 엔진 출력 이전에 의료 평가·연계가 우선이라는 비임상 정책 경고."
+      }
+    },
+    {
+      "id": "R006",
+      "title": "노출 정보 불명 + 다인원 → 정보 수집·선별 강화",
+      "evidence_status": "placeholder",
+      "source_hint": "TBD",
+      "when": { "exposure_known": false, "num_exposed_min": 30 },
+      "then": {
+        "response_priority": "high",
+        "biodosimetry_focus": "coordination_and_information_gap",
+        "assay_tags": ["NONE_SPECIFIC"],
+        "caution_codes": ["EXPOSURE_SCENARIO_UNCERTAIN", "MASS_CASUALTY_TRIAGE_REQUIRED"],
+        "reasoning_summary": "노출이 불명확할수록 대상 규모가 크면 현장 분류·문진·추적 설계가 병목이 될 수 있음."
+      }
+    },
+    {
+      "id": "R007",
+      "title": "경과 시간 매우 짧음 → 시료·재채질 일정 불확실성",
+      "evidence_status": "needs_confirmation",
+      "source_hint": "검사별 적합 시점은 문헌·프로토콜 인용 필요",
+      "when": { "elapsed_hours_max": 6 },
+      "then": {
+        "response_priority": "medium",
+        "biodosimetry_focus": "timing_and_resampling_planning",
+        "assay_tags": ["NONE_SPECIFIC"],
+        "caution_codes": ["TIME_SINCE_EXPOSURE_UNKNOWN_OR_WIDE", "ASSAY_CHOICE_REQUIRES_EXPERT_REVIEW"],
+        "reasoning_summary": "초기에는 일부 지표의 가독성·채질 적기가 제한될 수 있어 추적 계획을 함께 두는 것이 안전."
+      }
+    },
+    {
+      "id": "R008",
+      "title": "경과 시간 매우 긺 → 일부 검사의 해석·적합성 재검토 필요(일반론)",
+      "evidence_status": "needs_confirmation",
+      "source_hint": "세포유전학 등 시간 민감도 — 문헌 확인",
+      "when": { "elapsed_hours_min": 336 },
+      "then": {
+        "response_priority": "medium",
+        "biodosimetry_focus": "timing_and_resampling_planning",
+        "assay_tags": ["CYTOGENETIC_REF_LAB", "MOLECULAR_BIODOSIMETRY_REF_LAB"],
+        "caution_codes": ["TIME_SINCE_EXPOSURE_UNKNOWN_OR_WIDE", "ASSAY_CHOICE_REQUIRES_EXPERT_REVIEW"],
+        "reasoning_summary": "시간이 길어질수록 선택 가능한 생물학적 선량평가 수단과 해석 한계가 달라질 수 있다는 일반론."
+      }
+    },
+    {
+      "id": "R009",
+      "title": "소규모 인원 + 자원 충분 → 참고용 정밀 검사 계획 검토 여지",
+      "evidence_status": "placeholder",
+      "source_hint": "TBD — 기관 SOP",
+      "when": { "num_exposed_max": 20, "resource_level_in": ["full"] },
+      "then": {
+        "response_priority": "low",
+        "biodosimetry_focus": "standard_reference_assay_planning",
+        "assay_tags": ["CYTOGENETIC_REF_LAB", "MICRONUCLEUS_OR_ALT_CYTOGENETIC"],
+        "caution_codes": ["ASSAY_CHOICE_REQUIRES_EXPERT_REVIEW"],
+        "reasoning_summary": "인원이 적고 역량이 충분하면 처리량 제약이 상대적으로 작다는 운영 가정."
+      }
+    },
+    {
+      "id": "R010",
+      "title": "지역 규모 + 노출 알려짐 + 무증상 → 상대적으로 낮은 긴급도(계획)",
+      "evidence_status": "placeholder",
+      "source_hint": "TBD",
+      "when": {
+        "incident_scale_in": ["local"],
+        "exposure_known": true,
+        "symptom_severity_in": ["none"]
+      },
+      "then": {
+        "response_priority": "low",
+        "biodosimetry_focus": "standard_reference_assay_planning",
+        "assay_tags": ["HEMATOLOGY_COUNTS_SUPPORTING"],
+        "caution_codes": ["NOT_A_MEDICAL_DEVICE_OUTPUT"],
+        "reasoning_summary": "정보가 비교적 명확하고 증상 입력이 없으면 계획상 우선순위를 낮출 수 있다는 단순 휴리스틱."
+      }
+    },
+    {
+      "id": "R011",
+      "title": "중등도 증상 입력 → 모니터링·재평가 강조(비진단)",
+      "evidence_status": "placeholder",
+      "source_hint": "TBD",
+      "when": { "symptom_severity_in": ["moderate"] },
+      "then": {
+        "response_priority": "medium",
+        "biodosimetry_focus": "clinical_first",
+        "assay_tags": ["HEMATOLOGY_COUNTS_SUPPORTING"],
+        "caution_codes": ["NOT_A_MEDICAL_DEVICE_OUTPUT", "EXPOSURE_SCENARIO_UNCERTAIN"],
+        "reasoning_summary": "증상 입력이 있으면 임상 추적과 병행해 생물학적 선량평가 일정을 잡는다는 계획 관점."
+      }
+    },
+    {
+      "id": "R012",
+      "title": "내부 오염 + 부분피폭 동시 의심 → 복합 시나리오(전문가 검토)",
+      "evidence_status": "placeholder",
+      "source_hint": "TBD",
+      "when": { "internal_contamination_suspected": true, "partial_body_suspected": true },
+      "then": {
+        "response_priority": "high",
+        "biodosimetry_focus": "heterogeneous_partial_body_planning",
+        "assay_tags": ["IN_VIVO_COUNTING_PLANNING", "PHYSICAL_RECONSTRUCTION_SUPPORT"],
+        "caution_codes": ["INTERNAL_CONTAMINATION_CONFOUNDS_WB_BLOOD_MARKERS", "PARTIAL_BODY_INTERPRETATION_LIMITS", "ASSAY_CHOICE_REQUIRES_EXPERT_REVIEW"],
+        "reasoning_summary": "두 축이 동시에 의심되면 단일 검사·단일 모델 가정이 취약해질 수 있음."
+      }
+    },
+    {
+      "id": "R013",
+      "title": "자원 제한 + 광역 이상 규모 → 역량 병목 경고",
+      "evidence_status": "direct_source_logic",
+      "source_hint": "자원·규모 불일치는 대응 계획 문헌의 공통 주제 — 절번호 인용은 팀 과제",
+      "when": { "resource_level_in": ["minimal"], "incident_scale_in": ["regional", "national", "international"] },
+      "then": {
+        "response_priority": "high",
+        "biodosimetry_focus": "capacity_constrained_planning",
+        "assay_tags": ["NONE_SPECIFIC"],
+        "caution_codes": ["RESOURCE_BOTTLENECK", "ASSAY_CHOICE_REQUIRES_EXPERT_REVIEW"],
+        "reasoning_summary": "지리적·행정적 범위가 넓은 사고에서 현장 역량이 낮으면 검사·운송·통신 병목이 커질 수 있다는 운영 전제."
+      }
+    },
+    {
+      "id": "R014",
+      "title": "노출 알려짐 + 자원 보통 이상 → 표준 참고 검사 계획 검토(세부는 SOP)",
+      "evidence_status": "placeholder",
+      "source_hint": "TBD",
+      "when": { "exposure_known": true, "resource_level_in": ["moderate", "full"] },
+      "then": {
+        "response_priority": "medium",
+        "biodosimetry_focus": "standard_reference_assay_planning",
+        "assay_tags": ["CYTOGENETIC_REF_LAB", "MICRONUCLEUS_OR_ALT_CYTOGENETIC"],
+        "caution_codes": ["ASSAY_CHOICE_REQUIRES_EXPERT_REVIEW"],
+        "reasoning_summary": "노출 정보가 있고 중간 이상 자원이면 참고용 정밀 검사를 일정에 넣기 쉽다는 단순 가정."
+      }
+    },
+    {
+      "id": "R015",
+      "title": "경증 증상만 입력 → 즉시 최고 긴급은 아닐 수 있으나 임상 소홀 금지",
+      "evidence_status": "placeholder",
+      "source_hint": "TBD",
+      "when": { "symptom_severity_in": ["mild"] },
+      "then": {
+        "response_priority": "medium",
+        "biodosimetry_focus": "clinical_first",
+        "assay_tags": ["HEMATOLOGY_COUNTS_SUPPORTING"],
+        "caution_codes": ["NOT_A_MEDICAL_DEVICE_OUTPUT"],
+        "reasoning_summary": "경증 입력은 정보 품질이 낮을 수 있어 후속 확인이 필요."
+      }
+    },
+    {
+      "id": "R016",
+      "title": "국가 규모 + 자원 충분 → 조정은 여전히 필요(과신 방지)",
+      "evidence_status": "placeholder",
+      "source_hint": "TBD",
+      "when": { "incident_scale_in": ["national"], "resource_level_in": ["full"] },
+      "then": {
+        "response_priority": "medium",
+        "biodosimetry_focus": "coordination_and_information_gap",
+        "assay_tags": ["NONE_SPECIFIC"],
+        "caution_codes": ["MASS_CASUALTY_TRIAGE_REQUIRED", "ASSAY_CHOICE_REQUIRES_EXPERT_REVIEW"],
+        "reasoning_summary": "단일 기관 자원이 충분해도 국가 규모에서는 물류·표준화·데이터 통합 이슈가 남는다는 계획 경고."
+      }
+    },
+    {
+      "id": "R017",
+      "title": "노출 불명 + 내부 오염 무 + 부분피폭 무 → 외피폭 가정으로 단순화 가능성(검증 필요)",
+      "evidence_status": "needs_confirmation",
+      "source_hint": "시나리오 단순화는 문헌·사례별로 달라질 수 있음",
+      "when": {
+        "exposure_known": false,
+        "internal_contamination_suspected": false,
+        "partial_body_suspected": false
+      },
+      "then": {
+        "response_priority": "medium",
+        "biodosimetry_focus": "coordination_and_information_gap",
+        "assay_tags": ["CYTOGENETIC_REF_LAB"],
+        "caution_codes": ["EXPOSURE_SCENARIO_UNCERTAIN", "ASSAY_CHOICE_REQUIRES_EXPERT_REVIEW"],
+        "reasoning_summary": "의심 축이 적으면 모델을 단순화할 여지가 있으나 정보 부족 자체가 불확실성."
+      }
+    },
+    {
+      "id": "R018",
+      "title": "인원 극소 + 지역 + 자원 제한 → 현장 제약은 크지만 대상 수는 작음",
+      "evidence_status": "placeholder",
+      "source_hint": "TBD",
+      "when": {
+        "incident_scale_in": ["local"],
+        "num_exposed_max": 5,
+        "resource_level_in": ["minimal"]
+      },
+      "then": {
+        "response_priority": "medium",
+        "biodosimetry_focus": "capacity_constrained_planning",
+        "assay_tags": ["NONE_SPECIFIC"],
+        "caution_codes": ["RESOURCE_BOTTLENECK"],
+        "reasoning_summary": "대상은 적지만 지역·자원 제약으로 원거리 검사 연계가 병목일 수 있음."
+      }
+    }
+  ]
+}

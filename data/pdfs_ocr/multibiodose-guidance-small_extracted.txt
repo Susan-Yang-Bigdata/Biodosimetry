@@ -1,0 +1,2496 @@
+===== 페이지 1 / 52 =====
+Guidance for using MULTIBIODOSE 
+tools in Emergencies
+for Radiation Emergency Response Organisations in Europe
+
+===== 페이지 2 / 52 =====
+Authors:
+Alicja Jaworska,  Andrzej Wojcik , Elizabeth A. Ainsbury, Paola Fattibene, Carita Lindholm, Ursula Oestreicher, Kai 
+Rothkamm, Horst Romm, Hubert Thierens, Francois Trompier, Philippe Voisin, Anne Vral, Clemens Woda
+Contributors from consortium members’ organisations:
+People from consortium members’ organisations who have contributed to the 
+work in the project and in the producing of the Guidance are listed below:
+Stockholm University (SU)
+Andrzej Wojcik  	
+Project co-ordinator
+Ainars Bajinskis   	
+Project manager
+Bundesamt für Strahlenschutz  (BfS)
+Horst Romm  	
+Consortium member, Work package leader
+Ursula Oestreicher	
+Consortium member
+Ghent University (UGent)
+Hubert Thierens 	
+Consortium member, Work package leader
+Anne Vral 	
+Consortium member
+Charlot Vandevoorde	
+Consortium member
+Veerle Vandersickel	
+Consortium member (2010-2011)
+Virginie de Gelder	
+Consortium member
+Public Health England (formerly the Health Protection 
+Agency (HPA))
+Elizabeth A. Ainsbury 	
+Consortium member, Work package leader
+David Llyod	
+Advisory Committee
+Kai Rothkamm	
+Consortium member, Work package leader
+…
+Institut de Radioprotection et de Sûreté Nucléaire (IRSN)
+Marc Benderitter	
+Consortium member, Work package leader
+Francesc Barquinero  	
+Consortium member (2012 -2013)
+Celine.Bassinet	
+Consortium member
+Eric Gregoire  	
+Consortium member
+Laurence Roy 	
+Consortium member
+Sandrine Roch-Lefèvre	
+Consortium member
+Francois Trompier  	
+Consortium member, represented EURADOS in  
+	
+Multibiodose	
+Philippe Voisin 	
+Advisory Committee
+	
+Istituto Superiore di Sanitá (ISS)
+Paola Fattibene 	
+Consortium member, Work package leader
+Cinzia De Angelis 	
+Consortium member
+Emanuela Bortolin	
+Consortium member
+Sara Della Monaca	
+Consortium member
+Maria Cristina Quattrini  	
+Consortium member	
+	
+Norwegian Radiation Protection Authority (NRPA)
+Alicja Jaworska	
+Consortium member, Work package leader
+Inger Nergaard 	
+Consortium member, technical editor of the  
+	
+Guidance
+Martin Album Ytre-Eide	
+Technical support in preparing the maps
+Radiation and Nuclear Safety Authority (STUK) laboratory
+Carita Lindholm	
+Consortium member
+Universitat Autònoma de Barcelona (UAB)
+LLeonard Barrios 	
+Consortium member
+Francesc  Barquinero  	
+Consortium member (2010-2011)
+Institute of Nuclear Chemistry and Technology (INCT)
+Sylwester Sommer 	
+Consortium member
+Iwona Buraczewska	
+Consortium Member	
+Helmholtz Zentrum Muenchen (HMGU)
+Clemens Woda 	
+Consortium member
+Albrecht Wieser  	
+Consortium Member
+Irene Fiedler 	
+Consortium Member
+Bundeswehr Institut für Radiobiologie (BIR)
+Christina Beinke  	
+Consortium member
+Victor Meineke	
+Advisory Committee
+Harry Scherthan	
+Consortium member
+Pages: 52  |  © NRPA  | Printed number: xxx    |  Printed by: 07 Media, Oslo   |  ISSN: 000000 (online)   |  ISSN: 000000 (print)
+
+===== 페이지 3 / 52 =====
+3
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Disclaimer
+The opinions and views contained in this document are solely those of the group of experts in biodosimetry that are members of the 
+MULTIBIODOSE consortium and do not necessarily represent the opinions and views of the consortium members´ organisations or 
+of the European Commission.
+
+===== 페이지 4 / 52 =====
+4
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Contents:
+1. How to use this guidance.......................................................................................................................................................	
+5
+2. Introduction ...........................................................................................................................................................................	
+6
+3. Status of MULTIBIODOSE (MBD) biodosimetry laboratories in EU countries and their connection to radiation  
+emergency responsible organisations........................................................................................................................................	
+8
+4.	
+Characterisation of MBD tools .........................................................................................................................................	
+11
+5.	
+Emergency preparedness;  Organisational requirements for effective use of MBD tools    
+(Preparedness for the use of MBD tools: logistic, protocols, information to the relevant end-users)........................................	
+15
+6.	
+MBD tools use for acute biodosimetry in emergency response:......................................................................................	
+21
+	
+A.General introduction and exposure scenarios...............................................................................................................	
+21
+	
+B. Categorization of the scenarios according to the mode of exposure...........................................................................	
+21
+	
+C. Categorization of the scenarios according  to the timescale of taking and delivering the samples  
+	
+for biodosimetry................................................................................................................................................................	
+22
+	
+D. Categorisations of the scenarios according to the number of people who require biodosimetry ................................	
+23
+	
+E. Applicability of the MBD tools in different scenario categories ....................................................................................	
+23
+7. MBD tools for  follow up of people involved in radiation emergency in the intermediate phase of emergency  
+and afterwards...........................................................................................................................................................................	
+28
+8. Conclusions............................................................................................................................................................................	
+29
+9. Appendices
+	
+Appendix I: Laboratories performing validated MBD assays............................................................................................	
+32
+	
+Appendix II. Dedicated statistical MBD software..............................................................................................................	
+35
+	
+Appendix III. International networks and resources within biodosimetry..........................................................................	
+37
+	
+Appendix IV. Examples for detailed protocols for taking and transporting the samples...................................................	
+39
+	
+Appendix V. Available important reference materials on biodosimetry.............................................................................	
+47
+ 
+Appendix VI. Definitions and acronyms............................................................................................................................	
+48
+
+===== 페이지 5 / 52 =====
+5
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+1. How to use this guidance
+This guidance is intended for authorities involved in radiation 
+protection and emergency preparedness as a source of informa-
+tion about the possibilities and limitations of biodosimetric triage 
+tools developed and implemented during the MULTIBIODOSE 
+(MBD) project and about the laboratories that are prepared to 
+use these tools.
+Chapter 3 (pages 8–10) contains the information about the 
+MBD laboratories. This chapter is supplemented with detailed 
+contact information to the laboratories in Appendix I (pages 
+32–34). The information in Chapter 3 and Appendix I is the 
+most important information from the point of view of radia-
+tion emergency responders. It is proposed that one of these 
+laboratories is promptly contacted if the need for biodosi-
+metric triage should occur. If needed, this laboratory will 
+then initiate the network.
+Chapters 5 (pages 15–20) and 8 (conclusions, page 29) of 
+this guidance contain a general overview over the capacities for 
+biodosimetric triage of MBD laboratories and describe organi-
+sational requirements for the effective use of the biodosimetric 
+triage tools. It is desirable that these chapters are taken into 
+consideration when preparing radiation emergency plans and in-
+house plans of radiation protection and health protection authori-
+ties, as well as hospitals designated to treat potential radiation 
+casualties. Information in Chapters 5 and 8 is supplemented with 
+Appendix IV (pages 39–46) that contains examples of protocols 
+for taking and transporting samples. The knowledge of require-
+ments for the logistics connected to the sampling is crucial for 
+performing effective biodosimetric triage in a mass casualty 
+radiological emergency.
+Chapter 4 (pages 11–14) gives an overview over the features 
+and characteristics of the biodosimetric triage tools and Chapter 
+6 (pages 21–27) elaborates on the usefulness of MBD tools in 
+different generic, emergency scenario categories. These chap-
+ters are included in the guidance in order to give a collective 
+view of the MBD biodosimetric tools and of their usefulness. The 
+same refers to Chapter 7 (page 28) and Appendix II (pages 
+35–36).
+The Appendices III and V give a general overview over other 
+important biodosimetry resources.
+
+===== 페이지 6 / 52 =====
+6
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+2.	
+Introduction 
+In the event of a large scale radiological emergency, the triage 
+of individuals according to their degree of exposure forms an 
+important initial step of the accident management. Although clini-
+cal signs and symptoms of a serious exposure may be used for 
+radiological triage, they are not necessarily radiation specific and 
+can lead to a false diagnosis. Biodosimetry is a method based 
+on the analysis of radiation-induced changes in cells of the 
+human body or in portable electronic devices and enables the 
+unequivocal identification of exposed people who should receive 
+medical treatment. 
+The MULTIBIODOSE (MBD) consortium developed and vali-
+dated several biodosimetric assays and adapted and tested 
+them as tools for biological dose assessment in a mass casualty 
+event. The main goal was to increase both the speed of analysis 
+and the total biodosimetric capacity of the MBD laboratories. 
+Special focus was put on situations when dose estimates for a 
+large number of individuals will be required by health service 
+professionals and radiation protection authorities in a relatively 
+short period of time (days, weeks or a month). 
+Different biodosimetric assays were validated against the ‘gold 
+standard’ of biological dosimetry - the dicentric assay. The 
+assays were harmonised in such a way that in an emergency 
+situation they can be run in parallel in many MBD laboratories. 
+A dedicated MBD statistical software tool was developed that 
+allows collating results obtained with the different assays.
+The aim of this guidance is to give a concise overview of the 
+developed biodosimetric tools as well as how and when they can 
+be used in an emergency situation.
+
+===== 페이지 7 / 52 =====
+Figure 2.1. Flowchart that illustrates the need for specific information about exposure scenario in order to achieve most 
+effective use of MBD tools in an emergency.
+
+===== 페이지 8 / 52 =====
+8
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+3. Status of MULTIBIODOSE (MBD) biodosimetry laboratories in EU 
+countries and their connection to radiation emergency  
+response organisations
+Among MULTIBIODOSE participants are representatives from 
+radiation protection authorities, health protection authorities, 
+independent research institutes and universities. The full list is 
+given at the end of this chapter. 
+STUK in Finland and NRPA in Norway are the authorities com-
+petent in nuclear and radiation emergency preparedness and 
+response both at home and abroad. Thus they represent deci-
+sion makers in the field of biodosimetry.
+Health protection authorities like the HPA in the UK will likely be 
+decision makers in small scale emergencies but in the case of 
+a major emergency they will act under the authorities responsi-
+ble for nuclear and radiological emergency. This is the Nuclear 
+Decommissioning and Security Directorate in the UK 
+Public bodies of the National Health System like ISS wil act 
+as technical support organizations to competent authorities 
+responsible for nuclear and radiological emergency and for 
+public health. In Italy these are respectively the Department of 
+Civil Protection of the Prime Minister Office and the Ministry of 
+Health. 
+The dedicated radiation protection institutes IRSN In France and 
+BfS in Germany will be strongly involved in decision making in 
+the field of biodosimetry but in case of large and international 
+emergencies will act as technical support organisations for other 
+decision makers like the Authorite de Surete Nucleaire( ASN) in 
+France and Federal Ministry of the Environment in Germany.  
+Other radiation research institutes in MBD consortium - the 
+HMGU in Germany and INCT in Poland - do not have clear 
+organisational connection to radiation emergency response deci-
+sion makers and may act as support organisations on demand. 
+The same applies also to the laboratory at Stockholm University 
+in Sweden.
+Other universities in the MBD Consortium have agreements 
+with the national radiation protection and radiation emergency 
+response authorities like Universitat Autònoma de Barcelona 
+with Nuclear Safety Council in Spain (Consejo de Seguridad 
+Nuclear C.S.N.) and Ghent University with the Federal Agency 
+for Nuclear Control (FANC) in Belgium.
+One organisation in the Consortium - BIR - is a military Institute 
+but affiliated to the University of Ulm.
+It must also be stated that some needs for biological dose esti-
+mations can occur in situation with terror and criminal acts and 
+in such cases decision makers will probably be also forensic and 
+military services. 
+As described above the MBD laboratories have different status 
+with regard to their response in radiological events and thus 
+differences in the availability of resources among laboratories 
+exist.  Several organisations have permanent arrangements for 
+biodosimetry and have permanent staff working with MBD as-
+says (STUK, HPA, BfS, IRSN, Ghent University) while others are 
+research laboratories that are able to  switch into biodosimetry 
+for  research projects like MBD, inter-comparison exercises and 
+emergencies.
+A list and description of MULTIBIODOSE partners (in alpha-
+betical order) is given below: 
+Autonomous University of Barcelona (UAB), Spain - www.
+uab.es. UAB is a research and education entity. UAB is a 
+pioneering and innovative research institution. It is one of the 
+responsible laboratories for biological dosimetry in Spain.
+Bundeswehr Institute of Radiobiology affiliated to the Uni-
+versity of Ulm (BIR-UULM), Munich, Germany - www.radiation-
+medicine.de. BIR-UULM is a Federal Defence research institute.
+
+===== 페이지 9 / 52 =====
+9
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+It is the responsible laboratory for radiation accidents and  
+biological dosimetry of the German Armed Forces. 
+European Radiation Dosimetry Group (EURADOS), Braun-
+schweig, Germany – www.eurados.org.   EURADOS is a 
+non-profit organization which promotes research and develop-
+ment and European cooperation in the field of the dosimetry 
+of ionizing radiation. It is a network of more than 50 European 
+institutions and 250 scientists. WG10 deals with retrospective 
+dosimetry. 
+Federal Office for Radiation Protection (BfS), Munich, 
+Germany – www.bfs.de. BfS is a scientific-technical Superior 
+Federal Authority in the portfolio of the Federal Ministry for the 
+Environment, Nature Conservation and Nuclear Safety. The BfS 
+is the official laboratory charged with the performance of biologi-
+cal dosimetry in Germany since 1982.
+Health Protection Agency (HPA), Didcot, UK –  
+www.hpa.uk. The HPA is a UK-wide public health organisation 
+that delivers advice and services to the UK government and oth-
+ers, and undertakes relevant research. It is the responsible labo-
+ratory for radiation accidents and biological dosimetry in the UK. 
+On 1 April 2013, the functions of the HPA have been transferred 
+to Public Health England (PHE; www.gov.uk/PHE). 
+Helmholtz Zentrum München (HMGU), Munich Germany - 
+www.helmholtz-muenchen.de. HMGU is a research institution 
+of the Federal Government and the State of Bavaria within the 
+Helmholtz Association of German Research Centres. The Insti-
+tute of Radiation Protection deals with all aspects of radiation 
+protection and specialises in the application of EPR and OSL 
+dosimetry in cases of radiation accidents.
+Institute for Radiological Protection and Nuclear Safety 
+(IRSN), Fontenay-aux-Roses, France – www.irsn.fr. IRSN is the 
+French national public expert in nuclear and radiological risks. 
+It is the institute for radiation accident dosimetry (physical and 
+biological).
+Institute of Nuclear Chemistry and Technology (INCT), 
+Warszawa, Poland – www.ichtj.waw.pl. INCT is a state radiation 
+research institute. INCT is the responsible laboratory for biologi-
+cal dosimetry in Poland.
+Istituto Superiore di Sanità (ISS), Rome, Italy – www.iss.it. ISS 
+is the leading technical and scientific public body of the Italian 
+National Health Service. Its activities include research, control, 
+and training in radiation protection and in emergency response 
+for the aspects related to public health. It deals with EPR and 
+OSL dosimetry in cases of radiation accidents.
+Norwegian Radiation Protection Authority (NRPA), Østerås, 
+Norway – www.nrpa.no. NRPA is the governmental agency deal-
+ing with every aspect of radiological emergency preparedness  
+and response including public health in Norway. 
+Radiation and Nuclear Safety Authority (STUK), Helsinki, 
+Finland – www.stuk.fi. STUK is a national authority in radiation 
+protection and nuclear safety. It is the responsible laboratory 
+dealing with radiation accidents and biological dosimetry in 
+Finland.
+Ghent University (UGent), Belgium - www.ugent.be. The Ra-
+diation and DNA Repair Research unit in the Faculty of Medicine 
+and Health Sciences is the responsible biological dosimetry 
+laboratory in Belgium. 
+University of Stockholm (SU), Sweden – www.su.se . The 
+Centre for Radiation Protection Research is a research entity 
+financially supported by the Swedish Radiation Protection Au-
+thority.
+
+===== 페이지 10 / 52 =====
+10
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Generally, the biodosimetry laboratories involved in the MBD 
+consortium are small, with few researchers and technicians 
+working with MBD assays for biodosimetry purpose. Although 
+the MBD consortium has made significant improvements in the 
+speed of dose assessment for several assays through automa-
+tion and concerted actions, the bottleneck for the total capacity 
+of the network remains in the human resources. It is common 
+that the same staff members perform several techniques at the 
+same laboratory. Additionally, for dose estimations based on the 
+EPR and OSL measurements of portable electronic devices the 
+bottleneck lies in the availability of instrumentation and existing 
+facilities. During the MBD project  three MBD laboratories have 
+been validated for both EPR and OSL measurements of port-
+able electronic devices. Another 27 laboratories were validated 
+through the EURADOS network.
+The contact details of the MBD biodosimetry laboratories can be 
+found in Appendix 9.I. 
+Figure 3.1. Map showing the location of the MULTIBIODOSE partner institutes.
+
+===== 페이지 11 / 52 =====
+11
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+4. Characterisation of MBD tools 
+Within MULTIBIODOSE the following dosimetric assays were 
+tested and validated for their suitability as tools to triage  
+exposed people in case of a large-scale radiological emergency:
+
+Manual and automated dicentric assay 
+
+Automated micronucleus assay
+
+Gamma-H2AX assay
+
+Skin speckle assay (SSA)
+
+Serum protein assay (SPA)
+
+Electron paramagnetic resonance (EPR)
+
+Optically stimulated luminescence (OSL) 
+In the following, the tools will be briefly characterised. The tools 
+were tested for their ability to identify a person exposed to a 
+dose higher than 1 Gy of gamma radiation with high degree 
+precision.
+Manual and automated dicentric assay 
+The dicentric assay is based on assessing the frequency of 
+dicentric chromosomes in peripheral blood lymphocytes (PBL) 
+of the exposed person. The dicentric chromosome is specific 
+for ionising radiation and the spontaneous frequency is very low 
+in the healthy population. It is standardised on the international 
+level (ISO 19238 and ISO 21243) and regarded as the gold 
+standard of biological dosimetry. The assay requires collecting 
+ca. 5 ml of venous blood. Subsequently, in vitro culturing of PBL 
+for a 48 h period is necessary for visualisation of chromosomes. 
+Dicentrics can be scored manually under the microscope or au-
+tomatically/semi-automatically with the help of an image analysis 
+system coupled to a microscope equipped with a motorised 
+stage. The absorbed dose can be assessed up to a few months 
+after exposure. 
+We have tested the dicentric assay and found that manual scor-
+ing of 50 cells per donor or automatic scoring of 150 cells per 
+donor is sufficient to identify a person exposed to a dose higher 
+than 1 Gy with a high degree precision. Partial body exposure 
+covering 50% of the cells and protracted exposure (irradiation 
+time of 16 hours) were also tested and found detectable. Moreo-
+ver, we successfully tested the possibility of manual scoring 
+of chromosome images. This approach gives the possibility of 
+quick input from a large number of laboratories in the analysis. 
+Automated micronucleus assay
+The micronucleus assay is based on assessing the frequency 
+of micronuclei in peripheral blood lymphocytes (PBL) of the ex-
+posed person. Micronuclei (MN) are not specific for ionising ra-
+diation and the spontaneous frequency is much higher than that 
+of dicentrics. However, radiation is a very potent inducer of MN, 
+so a high frequency of MN strongly indicates radiation exposure. 
+A large number of cells can be scored within a time shorter than 
+that required for scoring dicentrics. The standardisation of the 
+assay on the international level is ongoing (ISO 17099). Similarly 
+as the dicentric assays it requires collecting ca. 5 ml of venous 
+blood. Subsequently, in vitro culturing of PBL for a period of ca. 
+72 hours is necessary. MN can be scored automatically with 
+high speed using an image analysis system coupled to a micro-
+scope equipped with a motorised stage. The absorbed dose can 
+be assessed in a meaningful way up to one year after exposure.
+We have shown that automatic scoring of 1000 cells per donor 
+with the MN assay is sufficient to identify a person exposed to a 
+dose higher than 1 Gy with a high degree precision. Protracted 
+(irradiation time of 16 hours) whole body, and  partial body expo-
+sures were also tested and found detectable. 
+Gamma-H2AX assay
+The gamma-H2AX assay is based on analysing the formation 
+of DNA repair protein clusters – called gamma-H2AX «foci» - in 
+peripheral blood lymphocytes of an exposed person. Similar to 
+micronuclei, the foci are not specific to but indicative of ionising 
+radiation exposure and the spontaneous frequency is quite low. 
+The analysis can be done manually or automatically using a 
+microscope or automatically using a flow cytometer. The assay 
+has high sensitivity (if used within a few hours post exposure); 
+that it only requires a drop of blood (finger prick) and it does not 
+require culturing of lymphocytes, as is the case of the dicentric 
+and MN assays, and therefore provides results within a few 
+hours. The assay has a low signal stability: the absorbed dose
+
+===== 페이지 12 / 52 =====
+12
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+(whole and partial body) can be assessed up to ca. 1–3 days 
+after exposure. 
+We developed a portable system for the «on site» analysis of 
+foci, but it did not yield reliable results. Subsequently, we suc-
+cessfully validated the microscope-based, manual and auto-
+mated analyses of foci. This system is able to detect whole body 
+exposure up to 1–3 days after the radiation exposure. 
+Skin speckle assay (SSA)
+The skin speckle assay is based on the ability to detect radia-
+tion-induced speckle patterns in the skin. The assay is specific 
+to radiation-induced skin damage and its unique advantage is 
+the possibility to detect a dose to a small area of the skin in a 
+totally non-invasive and very fast way. We tested the SSA as-
+say and found at least one month must pass between radiation 
+exposure and analysis before a radiation-induced skin speckle 
+pattern is detectable. For this reason this assay is not suitable 
+for a timely triage of people exposed in a large-scale radiation 
+emergency. 
+Serum protein assay (SPA) 
+The change of concentration of selected proteins in serum 
+following localised exposure of skin to radiation was tested in 
+samples collected form patients treated by external beam radio-
+therapy as a tool for identifying partial-body exposure. Although 
+promising results were obtained in earlier mouse experiments, 
+the changes in protein concentration in patients showed very 
+strong individual variability that makes the assay unsuitable for 
+use in emergency situations, when the individual levels of pro-
+teins before radiation exposure are not known.
+Electron paramagnetic resonance (EPR)
+EPR is a spectroscopic technique for studying radiation-induced 
+radicals in biological or artificial materials. Ionising radiation 
+induces radicals in glass displays of portable electronic de-
+vices like smart phones. Consequently, these can be used as 
+individual dosimeters, but must be removed and destroyed for 
+measurement. The advantage of EPR is high radiation specific-
+ity, good sensitivity in the high dose region radiation (>1 Gy) and 
+very long signal stability (several months). The method has poor 
+sensitivity to low doses (detection threshold = 1 Gy). Analy-
+sis must be carried out in a laboratory equipped with an EPR 
+spectrometer. The method is currently in the process of ISO 
+standardisation. 
+Optically stimulated luminescence (OSL)
+OSL assesses the dose of ionising radiation by measuring light 
+emitted from irradiated objects. Electronic elements used in 
+mobile phones have luminescent properties and can be used as 
+individual dosimeters, but require removal and destruction of the 
+electronic circuitry board. OSL has very high specificity and sen-
+sitivity to radiation (from several mGy to several Gy), but poor 
+signal stability: there is a signal loss of 50% in the first 10 days 
+after irradiation and fading correction must be applied. Analysis 
+must be carried out in a laboratory equipped with an OSL reader. 
+MBD dedicated statistical software
+A major challenge for the MULTIBIODOSE project was to deve-
+lope a tool bringing together the results of the different biodosi-
+metric methods to rapidly form a single judgement regarding the 
+status of an exposed person. To this end a statistical software 
+tool was developed that allows categorising an exposed person 
+into one of the following dose categories: GREEN (< 1 Gy), 
+YELLOW (1-2 Gy) and RED (> 2 Gy). The program is open to 
+incorporate new dosimetric tools that may be developed in the 
+future. Detailed description of the software and uncertainties of 
+dose estimate using MBD methods is given in the Appendix II. 
+Table 4.1 presents the characteristics of different MBD methods.
+Table 4.2 illustrates the time needed to process the samples and 
+table 4.3 illustrates the total time needed to analyse different 
+quantities of samples by one laboratory and also by several 
+laboratories simultaneously.
+Examples of protocols for collection and shipment of samples 
+are presented in Appendix IV.
+
+===== 페이지 13 / 52 =====
+13
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Table 4.1. General characteristics of the assays.
+Assay
+Time span after exposure during 
+which the assay can yield us-
+able results
+Exposure scenario that can be 
+detected by each method alone
+Specific 
+for ionizing 
+radiation
+Sensitivity1 
+of the assay 
+(dose range 
+in Gy)
+Automated 
+(A) / manual 
+(M) analysis
+Days
+Weeks
+Months
+Acute
+Pro-
+tracted
+Partial 
+body
+Dicentrics manual
+√
+√
+√
+√
+√
+√
+√
+0.1 - 5
+M
+Dicentrics automated
+√
+√
+√
+√
+√
+√
+√
+0.1 - 5
+A
+Dicentrics telescoring
+√
+√
+√
+√
+√
+√
+√
+0.1 - 5
+M
+Micronuclei
+√
+√
+√
+√
+√
+√ 
+ 
+0.3 - 5
+A
+Gamma H2AX
+√
+ 
+ 
+√
+ 
+ 
+ 
+0.2 - 5
+A/M
+EPR (ped)2
+√
+√
+√
+√
+√
+ 
+√
+1 -> 10
+A
+OSL (ped)
+√
+√
+ 
+√
+√
+ 
+√
+0.01 - > 10
+A
+1 for most low LET radiation qualities such as gamma and X-rays
+2 ped: portable electronic devices
+Table 4.2. Approximated, optimal duration of sample analysis using different MBD methods. The aim of this table is not to 
+provide precise time estimates, but rather to give a comparative overview of the characteristic of each method.
+Time per step per sample 
+Time in hours
+Culture of cells
+Preparation of slides/samples
+Analysis
+Dicentrics manual
+48
+4
+0.5
+Dicentrics automated
+48
+4
+0.2
+Dicentrics telescoring2
+48
+4
+0.5
+Micronuclei
+72
+4
+0.2
+Gamma H2AX
+0
+2
+0.1
+EPR (ped)1
+0
+0.2
+0.2
+OSL (ped)
+0
+0.3
+0.06
+1 ped: portable electronic devices 
+2 Telescoring does not include the time required for capturing and web page uploading of metaphase images
+
+===== 페이지 14 / 52 =====
+14
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Table 4. 3. Approximated optimal duration (in days) between the time point of sample arrival at the laboratory and the com-
+pletion of dose estimation results, calculated for different numbers of samples analyzed by one or five laboratories. The 
+aim of this table is not to provide precise time estimates, but rather to give a comparative overview of the characteristic of 
+each method. Bear in mind that the times may change based on the momentary capacity and work load of a laboratory. 
+ 
+Total time to analyse samples1
+Time in days
+1 sample 
+1 lab
+50 samples 
+1 lab
+100 samples
+1000 samples
+1 lab
+5 labs
+1 lab
+5 labs
+Dicentrics manual
+2.5
+6
+9
+5
+65
+16
+Dicentrics automated
+2.5
+4
+5
+3
+24
+7
+Dicentrics telescoring
+2.5
+6
+9
+4
+65
+13
+Micronuclei
+3.5
+4
+5
+4
+20
+6
+Gamma H2AX
+<1
+1
+1
+1
+3
+3
+EPR (ped)2
+<1
+1
+4
+1
+40
+14
+OSL (ped)
+<1
+1
+4
+1
+40
+14
+1 does not include time for shipment of samples
+Calculation made for one person per lab working 8 hours per day
+In case of telescoring all cultures are done by one lab
+In case of automatic scoring the machine works 24h /day
+2 ped: portable electronic devices
+
+===== 페이지 15 / 52 =====
+15
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+5. Emergency preparedness; Organisational requirements for  
+effective use of MBD tools
+(Preparedness for the use of MBD tools: logistic, protocols, information to the relevant end-users)
+A. General remarks
+Biodosimetry laboratories within MBD are specialized labo-
+ratories with expertise in biological dosimetry, radiation biol-
+ogy, cytogenetics, basic radiation protection, and biophysical 
+methods for biodosimetry. These laboratories do not form routine 
+components of hospitals or health service laboratories. Rather, 
+they are assosiated with radiation protection authorities or 
+institutions working in the field of radiation research. Therefore, 
+it is a prerequisite that the emergency response organisations, 
+the relevant hospitals and health services that may potentially 
+act in radiological and nuclear emergencies have a harmonised 
+approach in their emergency plans regarding biodosimetry. Both 
+the emergency response organisations and hospitals should 
+have minimal standard procedures to implement biodosimetry. 
+Such procedures are defined by the IAEA in technical docu-
+ments (EPR MEDICAL 2005 and EPR Biodosimetry 2011) and 
+ISO standards (Practical advice can also be found in the TMT 
+handbook -http://www.tmthandbook.org).
+The Multibiodose consortium proposes that the national au-
+thorities and medical service units responsible for radiological 
+emergency preparedness would communicate with the MBD 
+biodosimetry laboratory, or, if one does not exist in their country, 
+with the MBD biodosimetry laboratory in another country. This 
+laboratory will be in charge of the biodosimetry service. In case 
+of a radiological emergency this laboratory will either perform 
+the required biodosimetric analysis or, if the number of samples 
+exceeds its capacity, will coordinate sharing samples between 
+MBD laboratories and collecting the results. This laboratory 
+will also decide which biodosimetry assays will be the optimal 
+ones for use in the particular emergency scenario. Further, this 
+laboratory will be in charge of the dose estimate calculations and 
+statistical analysis of the results using the dedicated software 
+(described in chapter 4 and Appendix II).
+The MBD consortium recommends the parallel application of 
+as many MBD tools as possible. Each method has its specific 
+characteristics, so the total results can give valuable information 
+about the exposure scenario and its time point. This is illustrated 
+in table 5.1.
+Table 5.1. An example of how  combined application of the MBD tools enables scenario identification. YES/NO indicates 
+whether an assay demonstrates a significant radiation exposure.
+Dicentrics
+Micronuclei
+G-H2AX
+EPR
+OSL
+Whole body exposure
+YES
+YES
+YES
+YES
+YES
+Partial body exposure I
+YES
+YES
+YES
+NO
+NO
+Partial body exposure II
+NO
+NO
+NO
+YES
+YES
+Eposure >24h ago
+YES
+YES
+NO
+YES
+YES
+Eposure >10 days ago
+YES
+YES
+NO
+YES
+YES
+Partial body exposure I: ped outside irridation field 
+Partial body exposure II: ped inside irridation field
+
+===== 페이지 16 / 52 =====
+16
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Table 5.2. Approximate total capacity of the MBD laboratories as of February 2013, taking into consideration personnel and 
+instrumentation resources. In principle, this guidance is written for biodosimetric triage. However, for the sake og compari-
+son we include information about full mode dosimetry in this table.
+Method
+Cytogenetic assays (dicentric and micro-
+nucleus assays)
+Gamma H2AX
+EPR  and OSL in portable electronic 
+devices
+time period
+week
+month
+week
+month
+week
+month
+full mode 
+100
+380
+NA
+NA
+690
+2860
+triage mode
+1080
+4120
+2260
+9040
+4190
+17890
+NA: not applicable as the test is only used for triage mode.
+
+===== 페이지 17 / 52 =====
+17
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Figure 5.1. Geographical locations of MBD biodosimetry laboratories and their capacities in numbers of exposed cases 
+triaged by dicentrics and micronuclei. The aim of the graph is to give a comparative overview. Please see table 5.2 for 
+numerical values.
+
+===== 페이지 18 / 52 =====
+18
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Figure 5.2. Geographical locations of MBD biodosimetry laboratories and their capacities in numbers of exposed cases 
+triaged by gamma H2AX. The aim of the graph is to give a comparative overview. Please see table 5.2 for numerical values. 
+The scale of bars is reduced by a factor of ~ 8 as compared to capacity to cytogenetic assay in figure 5.1.
+
+===== 페이지 19 / 52 =====
+19
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Figure 5.3. Geographical locations of MBD laboratories performing EPR and OSL in portable electronic devices, and their 
+capacity in numbers of cases per week or month to triage exposed victims. Please see table 5.2 for numerical values. The 
+scale of bars is reduced by a factor of ~10 as compared to capacity to cytogenetic assay in figure 5.1. Stars mark the loca-
+tion of laboratories associated with EURADOS that have either EPR or OSL competence and may be asked for assistance 
+in case of a large emergency.
+
+===== 페이지 20 / 52 =====
+20
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+It must be stressed that the numbers given in the tables and 
+shown on the maps are based on many assumptions like work-
+load, the availability of human resources, feasibility to perform 
+several assays at the same time, availability of consumables, 
+etc. The numbers can easily change if resources in MBD labora-
+tories are modified. 
+B. Preparedness for the use of MBD tools: logistic, protocols, 
+information to the relevant end-users
+The multi-parametric and multi-laboratory approach for the effec-
+tive use of MBD biodosimetry tools requires that the responders 
+involved in the radiological emergency are aware of the feasibili-
+ties and limitations of the assays and the availability of laborato-
+ries performing these assays. 
+It should also be pointed out that the costs of biodosimetric 
+analyses are not negligible, because the assays are labour-in-
+tensive. The full manual analysis of one sample by the dicentric 
+assay may cost from several hundred to about 1000 €. In case 
+of a mass casualty situation samples will be analysed in the 
+triage mode that will be cheaper but the analysis of one sample 
+by the dicentric assay may still cost about 200 €. The same cost 
+applies to the estimate for a micronucleus assay analysis of one 
+sample in the triage mode.
+The cost of analysis of portable electronic devices by EPR or 
+OSL is cheaper per sample, because, except for instrumenta-
+tion, there is no need for expensive reagents.  The analysis 
+requires a relatively short period of time, but is labour intensive 
+and the portable electronic devices must be dismantled and 
+parts of them have destroyed in the analysis. This implies costs 
+for the individual, the health service or the insurance company.
+Decision makers in public health emergency should be aware of 
+the possibilities and methodological restrictions of the different 
+assay as described briefly in paragraph 3 and should be aware 
+of the information given in Chapter 6 of this guidance.
+Procedures for contacting the biodosimetry laboratory, as well 
+as for taking blood samples and the logistics connected to the 
+transport of blood and portable electronic devices should be 
+available in advance. Special considerations have to be taken 
+regarding transport conditions of the blood. The protocols should 
+include the forms for collecting the available information about 
+the exposure, blood collection and storage, and the health status 
+of the individual. 
+There are a number of available protocols and manuals that 
+should be adjusted to the national context. Countries with well-
+established biodosimetry services have all these protocols in 
+place. Examples of protocol and information material are given 
+in Appendix IV.
+
+===== 페이지 21 / 52 =====
+21
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+6. The use of MBD tools for acute biodosimetry in an emergency 
+response 
+A. General introduction and possible exposure scenarios
+Nuclear and radiological emergencies can result in the need to 
+perform dose assessment on samples from few to thousands 
+of people (a mass casualty scenario). The affected people can 
+include professionals working with industrial or medical radiation 
+sources or in nuclear facilities. In many scenarios, however, also 
+members of the public can be exposed. Some scenarios could 
+result in a limited number of people receiving high doses that 
+lead to the development of the acute radiation syndrome and a 
+large number of people receiving moderate or low doses. 
+A scenario can also be envisaged where a large number of 
+people are affected by the emergency with only few being really 
+exposed. Among the unexposed will be individuals with signs 
+and symptoms like vomiting, diarrhoea or dizziness that can be 
+interpreted as signs of exposure. These so called worried well 
+require biodosimetry. The need for biodosimetry will be especial-
+ly high in situations with limited availability of information about 
+the exposure scenario. This will most probably be the case in 
+emergencies where the victims are members of the public. 
+Exposure scenarios can be grouped into the following 
+categories:
+1.	
+Accidents associated with professional use of radiation in 
+nuclear facilities (including nuclear power plants), industry, 
+research and medicine.
+2.	
+Accidents with sources out of regulatory control (so called 
+orphan sources).
+3.	
+Accidents resulting from malevolent use of radiation sourc-
+es and radioactive material (including terrorist attacks).
+The first category scenario will most likely lead to exposure of 
+patients or professionals working with radiation. There may be 
+only a limited number of people exposed to doses exceeding the 
+occupational limit of 20 mSv per year in Europe or 50mSv per 
+year in USA. An exception in this category was the Chernobyl 
+catastrophe. The present-day doses are expected to be lower 
+than those received in the past. Within industrial use of sealed 
+radiation sources, the current number of events with signifi-
+cant exposure of the individuals is only about 10 percent of the 
+number in the 1970’s. Better radiation protection regulations and 
+introduction of the ALARA (As Low As Reasonably Achievable) 
+principle has led to a reduction of the number of serious (severe) 
+accidents in industrial application of radiation sources. 
+Old sealed sources, orphan sources or other sealed sources 
+used in a malevolent way, can pose a significant threat of 
+exposure of the general public. In such a scenario, the need 
+for biodosimetry is evident. If a high activity source is placed 
+in a public place and not discovered promptly, the number of 
+exposed people requiring biodosimetry may increase to very 
+high numbers.
+Exposure to open radiation sources leading to contamination 
+may also generate the need for using biodosimetry. Biodosim-
+etry is seldom used for assessment of exposure from internal 
+contamination. Whole body counting and measuring radioactivity 
+in urine, feces or fragments of human tissue generally give more 
+accurate dose estimates. However, the prolonged deposition of 
+radioactive material on the surface of the human body can lead 
+to significant exposure. An example of such a case is the Goi-
+ania accident in 1987, where more than one hundred thousand 
+people were potentially contaminated with 137Cs. Among them 
+several people developed signs of the acute radiation syndrome, 
+mostly due to gamma irradiation from external contamination. 
+In such cases biodosimetry can provide valuable information to 
+support the medical treatment.
+B. Categorization of the scenarios according to the mode of 
+exposure
+As mentioned in the previous chapter, exposure to radiation 
+can be categorized as internal and external. The biodosimetric 
+methods are not best suited for internal exposure assessment 
+due to generally lower acute doses and to an inhomogeneity of 
+radionuclide deposition in the body. Possible scenario leading to 
+internal contamination of a large group of people is the disper-
+
+===== 페이지 22 / 52 =====
+22
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+sion of radioactive material as a result of an accident, a criminal 
+act or a terror incident.
+One of the most feared accident types are those occuring in nu-
+clear power plants. There will likely be a need for biodosimetry 
+to diagnose some of the workers and other persons that were in 
+the proximity of the plant or installation. The number of people 
+identified for biological dosimetry probably will not be high, and 
+radiological biodosimetry triage will probably not be required for 
+the members of the public. This view is based on the experience 
+of the Fukushima Daiichi catastrophe. One should however not 
+forget that after the Chernobyl catastrophe, there was a strong 
+need for biodosimetry of a large number of people, both among 
+the power plant employees and those who were ordered to 
+mitigate the consequences of the accident (the so called liquida-
+tors).
+Among other scenarios where dispersion of radioactivity and 
+contamination of the people and the environment is likey to oc-
+cur, are scenarios with the use of radiological dispersal device 
+(RDD, dirty bomb), contamination of food and water supplies, 
+attack on transport or installation containing radioactive material 
+feasible to disperse etc. In all these scenarios radiological triage 
+will be needed and biodosimetric triage may play a crucial role 
+in the implementation. It could be assessed that biodosimetric 
+triage will not be the method of choice because it is not suitable 
+for internal contamination. The past events, however, show that 
+public demand and political decisions can necessitate the use of 
+these assays. Here, the main aim can be to reassure the public. 
+Accidents that are considered most suitable for mass casualty 
+biodosimetry are, however, those resulting from the use of 
+strong sealed radiation sources (radiation exposure device - 
+RED) in a public place. This can occur through a deliberate crim-
+inal (terrorist) act, or a forgotten old source that was misplaced 
+and entered the public domain. Other accident categories that 
+necessitate the use of biodosimetry on large groups of people 
+are attacks on nuclear installations that will result in damage to 
+the physical protection barriers of the facility sources, or the use 
+of the improvised nuclear devices.
+C. Categorization of the scenarios according to the timescale 
+of collecting and delivering samples for biodosimetry
+Events that require biodosimetry can be grouped according to 
+the time that elapsed between exposure and the awareness that 
+the event occurred.
+1.	
+When the group of exposed people is well characterised 
+and the time and place of exposure are readily known, the 
+biodosimetric analysis can be carried out within a short time 
+i.e. few hours to some days after the event. Scenarios of 
+such events are detonations of dirty bombs, attacks on nu-
+clear installations or transport, announced placing of strong 
+radioactive sources in a public zone, etc. The number of 
+affected people may be very large and biodosimetric tools 
+and the networking of many laboratories, like the MBD net-
+work, will be of particular help. 
+ 
+First inquires for biodosimetry will most probably come from 
+medical doctors dealing with seriously damaged casual-
+ties with signs and symptoms of acute radiation syndrome 
+(ARS). The doctors will have an urgent need for dose as-
+sessment in order to predict the development of ARS. There 
+will also be a need to identify individuals who were exposed 
+to doses below 1 Gy and may not develop ARS, but are at 
+risk for late effects of radiation exposure. Finally, there will 
+also be a demand for dose assessment to reassure the wor-
+ried well. However, it should be noted that these categories 
+of patients are not the primary concern of biodosimetric tri-
+age.Precise evaluation of these patient doses can wait until 
+the triage is completed. 
+2.	
+A different situation will be found when the time point and 
+place of exposure are not readily known. Examples of such 
+events are orphan sources misplaced in public places or 
+homes, hidden strong radioactive sources positioned in 
+public places or public transportation systems, crowded city 
+centres, stadiums and similar. Such events will probably be 
+discovered after a time delay and the uncertainty regarding 
+the time and distance that a victim spent near the source 
+will complicate the calculations of individual absorbed dose. 
+Exposed individuals will probably be identified based on 
+symptoms when they contact medical doctors. This will 
+trigger the action of identifying the nature of the source. 
+Subsequently health- and radiation protection authorities
+
+===== 페이지 23 / 52 =====
+23
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+will try to identify potentially affected groups of the public. 
+Consequently, the need for biodosimetric analyses during 
+the first few days will be low. Later, when the knowledge 
+about the event increases and as media reports trigger 
+public attention, the numbers of candidates for biodosimetric 
+analyses may be expected to reach hundreds or thousands. 
+D. Categorisations of the scenarios according to the number of 
+people who require biodosimetry 
+Following a large scale radiological event the number of re-
+quests for biodosimetric analyses can range from few to a few 
+hundred thousand. A mass casualty event will probably be asso-
+ciated with destruction of infrastructures so acute biodosimetry 
+will not be on the list of prioritised actions. By acute biodosimetry 
+we mean dose assessment during the first week after an event.
+From the perspective of biodosimetric triage, the most demand-
+ing scenario is the situation when there is a small number of 
+highly irradiated people in a large group of potentially exposed. 
+The highly irradiated cases will in most cases be identified based 
+on their clinical symptoms, but it can be expected that the health 
+service centres will be overwhelmed with false positive cases 
+(worried well) of overexposure that will require reassurance. 
+ 
+Table 6.1. Exposure scenarios grouped according to demand for a prompt need of extensive biodosimetric triage.
+Generic scenarios
+An improvised nuclear device, explosion of a sealed radiation source or an explosion of a strong radioactive sources may generate the need for prompt 
+biodosimetric triage and results would be desired as soon as possible.
+Hidden radiation sources placed in public places as terror or criminal acts, or misplaced, forgotten old sources (called also  orphan sources, or ac-
+cording to IAEA terminology sources out of regulatory control) could also generate thousands of candidates for biodosimetric triage. In contrast to the 
+first group the demand for biodosimetry will be delayed as compared with the incidents described above. The samples will arrive at the biodosimetry 
+laboratories over the following months.
+Incidents in close the nuclear facilities and even accidents in nuclear power plants (as we have learned from Fukushima accident) will not generate the 
+need for acute biodosimetric triage. The need might be in the order of hundreds. Biodosimetric follow up, however, may be desired later.
+RDD (dirty bombs) will probably not generate many candidates for biodosimetric triage, except for those who were very near the point of the explosion 
+and some worried well individuals.
+Incidents with overexpose in industry, medicine and research will probably affect small number of people and small scale of biodosimetric triage will be 
+probably followed by full mode biodosimetry.
+E. Applicability of MBD tools in different scenario categories.
+As mentioned in chapter 4, it is recommended to use all MBD 
+assays, as the results may provide important information about 
+the nature of the irradiation. However, this may not always be 
+possible and not necessary in accidents where the exposure 
+conditions are well characterised. This chapter attempts to show 
+which assays will work best in scenarios described in table 6.1. 
+The laboratory designated to perform biodosimetry will be in 
+charge of choosing the assays or at least in giving advice. How-
+ever, it is recommended that some knowledge about the assays 
+is available in the health protection and emergency response 
+organisations.
+The example of the generic scenario type is described in the up-
+per rows of tables 6.2 to 6.4.
+The assays applicable for a particular scenario are marked with 
+«Y». Double «YY» indicates strong applicability, «N» marks  
+assays that are not useful.
+In the action part (lower part) of the tables only the recommend-
+ed assays are marked.
+
+===== 페이지 24 / 52 =====
+24
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Table 6.2. Decision table when few individuals are involved, and the time of exposure is known.
+Exposure time and time of sampling of blood or ped is known. Characteristics of the exposure conditions is provided. Few individuals.
+Some individuals may receive doses of 1Gy or more.
+Assay
+Dicentrics 
+manual
+Dicentrics 
+automated
+Dicentrics 
+telescoring
+Micronuclei 
+automated
+Gamma H2AX
+OSL ped
+EPR ped
+Features of the event scenario
+Few affected people and/
+or PBE
+YY
+Y
+N
+Y
+Y
+Y
+Y
+Sampling time: less than 
+24h after exposure
+YY
+Y
+N
+Y
+YY
+Y
+Y
+Sampling time: more than 
+24h after exposure
+YY
+Y
+N
+Y
+N
+Y
+Y
+Sensitive individuals in the 
+group (pregnant women, 
+children etc.)
+YY
+Y
+N
+Y
+Y
+Y
+Y
+Choice of the suitable assays
+Choice of the assay
+YY
+Y
+Y
+Y/N
+Y
+Y
+ped: portable electronic devices 
+PBE: partial body exposure
+
+===== 페이지 25 / 52 =====
+25
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Table 6.3. Decision table for scenario with a large number of people, and when the exposure time and date are not known.
+Exposure time not known and characteristics of the exposure are ill defined. Biodosimetric triage for a group of patients with suspected radiation  
+exposure arriving at the hospital after first conventional medical triage
+Assay
+Dicentrics 
+manual
+Dicentrics 
+automated
+Dicentrics 
+telescoring
+Micronuclei 
+automated
+Gamma H2AX
+OSL ped
+EPR ped
+Features of the event scenario
+ARS symptoms  among the 
+patients (possible exposure 
+over 1Gy)
+Y
+YY
+Y
+YY
+N
+N
+Y
+Inhomogeneous exposure  
+(partial body)
+YY
+YY
+Y
+Y
+N
+N
+Y
+Large number of patients, more 
+than 100
+N
+YY
+Y
+YY
+N
+N
+Y
+Sensitive individuals in the 
+group (pregnant women, 
+children etc)
+YY
+Y
+Y
+Y
+N
+Y
+Y
+Choice of the suitable assays
+Choice of assays when the 
+number of exposed individuals 
+is low
+YY
+Y
+Y
+Y
+Choice of assays when the 
+number of patients is high
+YY
+Y
+YY
+Y
+
+===== 페이지 26 / 52 =====
+26
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Table 6.4. Decision table when a large number of individuals appears continously in health centers some time after  
+exposure.
+Time point of exposure known (ca 24-48h or more before  appearance in the health service center) and characteristics of the exposure known. Few indi-
+viduals may receive doses exceeding 1Gy.  Biodosimetric triage for a large group of individuals contacting local health services and radiation protection 
+authorities, no signs and symptoms of ARS
+Assay
+Dicentrics 
+manual
+Dicentrics 
+automated
+Dicentrics 
+telescoring
+Micronuclei 
+automated
+Gamma 
+H2AX
+OSL ped
+EPR ped
+Features of the event scenario
+Number of affected people less than 
+100 during the first week
+Y
+YY
+Y
+YY
+N
+Y
+N
+Large number of patients, more than 
+100 during the first week
+Y
+YY
+YY
+YY
+N
+YY
+N
+Sensitive individuals in the group 
+(pregnant women, children etc)
+YY
+Y
+Y
+Y
+Y
+Y
+Y
+Choice of the suitable assays 
+Choice of the assay for the majority of 
+victims
+Y
+YY
+YY
+YY
+Y
+ped: portable electronic device 
+ARS: acute radiation syndrome
+
+===== 페이지 27 / 52 =====
+27
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Shown below is a decision tree that may be applied for the choice of MBD tools when some characteristics of the accident scenario 
+are known.
+Figure 6.1. Decision tree when time of exposure is known.
+
+===== 페이지 28 / 52 =====
+28
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+7. MBD tools for follow up of people involved in radiation emer-
+gency in the intermediate phase of emergency and afterwards 
+After the first triage of many exposed people, there will be the 
+need for more precise dose estimation for those identified as 
+exposed to doses higher than 1 Gy. Some of these people may 
+be without early clinical symptoms but the medical assistance 
+may be needed at some point in the future. Those exposed to 
+higher doses will be under medical treatment and more detailed 
+knowledge of exposure characteristic will be desireable. 
+The number of people requiring precise dose assessment most 
+probably will not be large, and thus the full mode dicentric assay 
+can be used for dose confirmation. OSL and EPR in personal 
+electronic devices may give some additional information. 
+Demand may exist for delayed biodosimetric assessment of 
+other groups of people. This demand will be justified by the 
+potential risk of late, stochastic effects of radiation like cancer. 
+Speed of performance will no longer be an issue in these cases 
+but sensitivity will be important. Thus sensitive assays, and 
+those that can be used at long times after exposure, will be cho-
+sen. Among MBD tools, candidates for the later follow up are the 
+dicentric assay and EPR in portable electronic devices.
+
+===== 페이지 29 / 52 =====
+29
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+8. Conclusions 
+1.	
+The Multibiodose consortium tested, adapted, and validated 
+several biodosimetry assays for their use in triage biodosim-
+etry in a mass casualty situation. Automation of assays and 
+telescoring of cytogenetic images have also been validated. 
+Application of EPR and OSL assays in portable electronic 
+devices was developed and validated not only among MBD 
+laboratories but also in 27 EURADOS associated laborato-
+ries, some of which are located outside the EU. The inter-
+comparison exercises and validation of results between the 
+laboratories has made it possible to act in a concerted way 
+in case of a mass casualty accident. As a result of this, both 
+the speed of performing the assays and the throughput of 
+the laboratories is optimised. 
+2.	
+The combined application of MBD tools is recommended 
+in order to comprehensively manage complex radiation ex-
+posure scenario. The developed dedicated MBD statistical 
+software enables the combination and comparison of results 
+from different assays for deciding on the triage category of 
+an individual according to the following triage categories: 
+GREEN (< 1 Gy), YELLOW (1-2 Gy) and RED (> 2 Gy). 
+3.	
+The MBD consortium proposes that:
+• In an emergency situation a MBD laboratory in the 
+affected country (or another national laboratory desig-
+nated to perform biodosimetry) will act as the «core» 
+or «administrative» laboratory. 
+• This laboratory will be in charge of the decision re-
+garding which assays should be used and how other 
+laboratories can be involved. 
+• The laboratory will give advice to the health and radia-
+tion protection authorities about collection of samples. 
+• This laboratory will collect the results from other MBD 
+laboratories and will apply the MBD statistical software 
+for the whole spectrum of applied MBD assays. In the 
+end, this laboratory will provide the health and radia-
+tion protection authorities with dosimetric and radio-
+logical triage categorisation results to support medical 
+and public health decisions. 
+4.	
+For effective use of MBD tools it will be required that nation-
+al radiation emergency plans, in-house plans of radiation 
+protection and health protection authorities, and emergency 
+plans of the hospitals designated to treat radiation casual-
+ties include a plan for performing biodosimetry. This plan 
+should include at least updated contact details of the biodo-
+simetry laboratory that is designated to perform biodosim-
+etry in a country or a region. It would be also desirable that 
+the plan contains, for example, information about: protocols 
+for sampling of blood or portable electronic devices, details 
+of transport requirements for the samples, information forms 
+about the individual and his/her exposure characteristics.
+
+===== 페이지 30 / 52 =====
+30
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+9. Appendices
+Appendix I
+Contact list to MULTIBIODOSE laboratories
+Stockholm University (SU) laboratory 
+Centre for Radiation Protection Research
+Stockholm University
+Svante Arrhenius väg 20C
+106 91 STOCKHOLM
+SWEDEN
+Contact person: Andrzej Wojcik,
+(MULTIBIODOSE Project Coordinator)
+Phone: +46 8 16 1217
+E-mail: andrzej.wojcik@su.se
+Bundesamt fuer Strahlenschutz (BfS) laboratory
+Biologische Dosimetry, SG 1.1
+Bundesamt fuer Strahlenschutz 
+Ingolstaedter Landstr. 1 
+85764 OBERSCHLEISSHEIM / NEUHERBERG 
+GERMANY
+Contact person: Horst Romm
+Phone: +4930183332214 
+E-mail: hromm@bfs.de
+Ghent University (UGent) laboratory
+Ghent University
+Faculty of Medicine 
+Department of Basic Medical Sciences
+Radiation and DNA repair laboratory
+De Pintelaan 185, B3 6th floor
+B-9000 GENT
+BELGIUM
+Contact person 1: Hubert Thierens 
+Phone: +32 9 264 66 43/+32 9 264 65 19
+Contact person 2: Anne Vral
+Phone: +32 9 332 51 29
+E-mail: biodosimetry@ugent.be
+Public Health England (formerly the Health Protection Agency 
+(HPA)) laboratory
+Public Health England 
+Cytogenetics & Biomarkers Group
+Centre for Radiation, Chemical and Environmental Hazards
+CHILTON, DIDCOT, OXON, OX11 0RQ
+UNITED KINGDOM
+Phone: 	+441235 82510-4 or -7 (working hours)
+	
++441980 612100 (out of hours emergency response switchboard)
+E-mail: body.monitoring@phe.gov.uk
+Institut de Radioprotection et de Sûreté Nucléaire (IRSN)
+Biological dosimetry laboratory
+Institute for Radioprotection and Nuclear Safety 
+Laboratory for Biological Dosimetry 
+31, Avenue de la division Leclerc
+92262 FONTENAY-AUX-ROSES CEDEX
+FRANCE
+Contact Person 1: Eric Gregoire 
+Phone: +33 (0) 1 58 35 91 39 
+Email: eric.gregoire@irsn.fr
+Contact Person 2: Sandrine Roch-Lefèvre
+Phone: +33 (0) 1 58 35 86 27 
+Email: Sandrine.roch-lefevre@irsn.fr
+EPR/OSL laboratory
+Institute for Radioprotection and Nuclear Safety
+Laboratory for ionizing radiation dosimetry
+31, Avenue de la division Leclerc
+92262 FONTENAY-AUX-ROSES CEDEX
+FRANCE
+Contact Person: François Trompier
+Phone : +33 (0)158 35 7241 
+Email: francois.trompier@irsn.fr
+Istituto Superiore di Sanitá (ISS) laboratory
+Istituto Superiore di Sanitá
+Department of Technology and Health
+Viale Regina Elena 299 
+I-00162 ROMA 
+ITALY
+Contact person: Paola Fattibene
+Phone: +390649902248
+E-mail: paola.fattibene@iss.it
+
+===== 페이지 31 / 52 =====
+31
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Radiation and Nuclear Safety Authority (STUK) laboratory
+Radiation and Nuclear Safety Authority (STUK)
+Laippatie 4 / P.O. Box 14, 
+00881 HELSINKI, 
+FINLAND 
+Contact person: Carita Lindholm
+Phone: +358975988486
+E-mail: Carita.Lindholm@stuk.fi 
+Universitat Autònoma de Barcelona (UAB) laboratory 
+Departament de Biologia Cel•lular, de Fisiologia i d’Immunologia
+Universitat Autònoma de Barcelona
+Edifici C, Campus UAB
+08193 CERDANYOLA DEL VALLÈS 
+SPAIN
+Contact person: Lleonard Barrios 
+Phone: +34935812776
+E-mail: lleonard.barrios@uab.cat
+Institute of Nuclear Chemistry and Technology (INCT) laboratory
+Centre for Radiobiology and Biological Dosimetry
+Institute of Nuclear Chemistry and Technology
+ul. Dorodna 16, 03-195 WARSAW
+POLAND
+Contact person: Sylwester Sommer
+Phone: +48225041228 
+E-mail: s.sommer@ichtj.waw.pl
+Helmholtz Zentrum Muenchen (HMGU) laboratory
+Helmholtz Zentrum Muenchen- German Research Center for Environ-
+mental Health
+Institute of Radiation Protection
+Ingolstaedter Landstrasse 1
+D-85764 NEUHERBERG
+GERMANY
+Contact person for OSL laboratory: Clemens Woda 
+Phone:  +498931872802
+E-mail: clemens.woda@helmholtz-muenchen.de
+Contact person for EPR laboratory:  Albrecht Wieser
+Phone:  +498931873069
+E-mail: wieser@helmholtz-muenchen.de
+Institut für Radiobiologie der Bundeswehr (BIR) laboratory
+Institut für Radiobiologie der Bundeswehr 
+Neuherbergstr. 11
+D-80937 MÜNCHEN
+GERMANY
+Contact person 1: Christina Beinke
+ Phone +49 89 3168-2273 (-2251)
+Contact person 2:  Harry Scherthan
+Phone +49 89 3168-2272 (-2251)
+E-mail: institutfuerradiobiologie@bundeswehr.org
+Contact for European Radiation Dosimetry Group (EURADOS) 
+laboratories
+Helmut Schuhmacher (EURADOS chairperson)
+Head, Department 6.5: Neutron Radiation
+Physikalisch-Technische Bundesanstalt
+Bundesallee 100
+D-38116 BRAUNSCHWEIG
+GERMANY
+Tel: +49-531-592-6500 and -6501
+Helmut.Schuhmacher@ptb.de / Helmut.Schuhmacher@eurados.org
+
+===== 페이지 32 / 52 =====
+32
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Appendix II, Part A:  
+MULTIBIODOSE software
+Background
+The Multibiodose software has been created to allow data from 
+an incident to be combined from several different assays, to 
+reach a single dosimetric triage decision. 
+The software is written in Java and the program links to da-
+tabases created in SQLite, in which the incident data will be 
+stored. One SQLite database is created per incident. At the end 
+of the MULTIBIODOSE project, the current version of the soft-
+ware is Version 1.0, with a release date of the 30th April 2013.
+The database is created and administered by the laboratory 
+in whose country the incident occurred, or, in the event that a 
+retrospective dosimetry laboratory is not present in that country, 
+the laboratory who is assigned the status of ‘lead laboratory’ by 
+the local authority who has taken charge of the incident. The 
+lead laboratory takes responsibility for collection and analysis 
+of physical/biological samples, assigning work to the other 
+laboratories involved in the Multibiodose consortium/RENEB/
+BioDoseNet/etc networks. The lead laboratory also takes 
+responsibility for maintaining the integrity of the data, i.e. for 
+sample coding etc, and for reporting to the authority in charge.
+Overview of software operation
+The software is freely available online and can be down-
+loaded from www. multibiodose.eu/software. MULTIBI-
+ODOSE_software_1.0.zip which contains the software itself: 
+MULTIBIODOSE_1.0.jar; the manual corresponding to the 
+current release: Multibiodose-software_manual_1.0.pdf; a test 
+database: Test_Incident.db; the list of incident databases: Inci-
+dent_List, and the lib folder which contains the libraries that are 
+required to run the software.
+The manual contains full instructions for downloading and run-
+ning the software. On starting the program, the main window 
+of the software will appear, which contains two options: Firstly, 
+to look at and amend (add or delete) the data from an existing 
+incident, or, secondly, to create a new database associated with 
+a new incident (Figure 1). 
+If a new incident is selected, then the user will be asked a series 
+of questions about the type of scenario, as detailed in (Figure 2, 
+below). The answers to these questions determine the weighting 
+schedule for the assays – i.e. which assays are relied upon in 
+order to calculate the final triage category. Weights are gener-
+ated automatically by the software and are assigned based on 
+the recommendations in the main text of this Guidance.
+Figure 1. The main graphic user interface of the Multibiodose 
+software.
+
+===== 페이지 33 / 52 =====
+33
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Figure 2. Dosimetric triage questions to be answered for a new 
+incident.
+If a new incident is selected, the user is presented with a screen 
+with an empty table, into which the data for the scenario can be 
+entered, as illustrated in Figure 3. 
+ 
+Figure 3. The data entry graphic user interface for a new inci-
+dent (Test_Incident).
+Once the incident has been created, next time the software is 
+restarted, the newly detailed incident should appear on the drop 
+down list of existing incidents.
+If an existing incident is selected, then another screen will 
+appear, containing all the current data for that incident, as in 
+Figure 4.
+The user can then add lines to the database, by increasing the 
+number of samples in spinner box on the top, and then entering 
+the data into the appropriate columns. 
+When changes are made to the table, for instance when adding 
+new results, the ‘Update database’ button should be pressed to 
+ensure the new results are saved. Failure to do this may result in 
+loss of the additional data. 
+Data can be copied and pasted to/from the table from the table 
+by right clicking when the mouse is over the table. 
+The table can be cleared by pressing the ‘Clear’ button.
+
+===== 페이지 34 / 52 =====
+34
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Figure 4. The graphic user interface with details of the current 
+data for Test_Incident, after the ‘Calculate’ button has been 
+pressed.
+Once the most up to date data has been added to the database, 
+pressing the ‘Calculate’ button gives the user the results, as il-
+lustrated in Figure 3. 
+The triage categorisation results are based on the weighted 
+results for each case, and the choice is from the categories de-
+tailed in the main text: 
+-	
+GREEN: Low, < 1 Gy;
+-	
+YELLOW: Medium, 1 – 2 Gy;
+-	
+RED: High, 2+ Gy.
+The results based on the combined (‘group’) data can be viewed 
+by pressing the ‘Group dose’ button.
+The data and results can be exported to a Microsoft Excel ® file 
+by pressing the ‘Export results’ button.
+For more information about the software please visit www. 
+multibiodose.eu/software or contact the software administrator 
+at MULTIBIODOSE-software@gmx.com.
+
+===== 페이지 35 / 52 =====
+35
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Appendix II, Part B:  
+Notes on factors contributing to uncertainty for the MULTIBIODOSE assays 
+During the MULTIBIODOSE project, a lot of work was carried out to attempt to improve the uncertainty analysis techniques and 
+reduce the uncertainty in the dose estimates provided by the different techniques. Nevertheless, retrospective dosimetry is still a 
+developing field and as such each of the assays discussed in this guidance have a number of sources of uncertainty which it has not 
+been possible to fully quantify or which, in a number of circumstances, might lead to greater uncertainty than expected.  
+In order to provide a full picture of the current status of each of the techniques, we have used an approach which involves quali-
+tative assessment of the effect of different experimental factors on the relative magnitude of the uncertainty in the dose estimate 
+provided by each assay. The table below provide a summary of our combined expert judgement about some of the associated 
+experimental variables. The first table gives the factors which have been judged to give a potentially large contribution to relative 
+uncertainty. The second table lists factors which should not have a large effect on the uncertainty in the dose, but which should be 
+considered for instance in case of changes of circumstances or changes (further developments) in uncertainty analysis methods.
+It should be noted that the judgements on the qualitative effect below give a snapshot of the situation at the end of the MULTIBI-
+ODOSE project – these should be reviewed periodically in line with scientific and technical advances in the field.
+1) Experimental variables which could contribute a relatively large amount to the uncertainty in dose estimates:
+Factor
+Applicable to
+Qualitative magnitude of effect on uncertainty in dose estimate
+Circumstances of exposure, including type of 
+radiation, dose, dose rate
+EPR, OSL
+Large
+Partial body/inhomogeneous exposures
+Dicentrics, MN, Foci
+Depends on the proportion of the body exposed and the gradient of expo-
+sure, but overall effect could be large for all assays: extra care should be 
+taken if partial body exposure is suspected/identified
+Delayed blood sampling
+Dicentrics, MN, Foci
+Large for all assays if delay is substantial
+Recent previous radiation exposure, e.g. medical
+Dicentrics, MN, Foci
+Depends on how recent exposure was, but potentially large for all assays if 
+e.g. a very recent radiotherapy dose
+Additional internal incorporation of radionuclides 
+Dicentrics, MN, Foci
+Potentially large effect – as yet unquantified for most types of radionuclides
+Drift in calibration curve
+Foci
+Small if curves are regularly updated and/or the recommendations for refer-
+ence samples are followed; otherwise potentially large
+Sampling time
+Foci, EPR, OSL
+Small if time is known and an appropriate calibration curve exists and is 
+used; otherwise potentially large
+Shipping effect
+EPR, OSL
+Large for some measurement protocols, but it has little relevance if an ap-
+propriate protocol of shipping has been set and provided to all operators.
+Inter-laboratory variation (operators’ training and 
+experimental settings )
+EPR, OSL
+Judged to be small if appropriate training is given/skills are maintained and 
+own labs’ calibration curves are used
+Storing effect (temperature and light)
+EPR, OSL
+Large, but it has little relevance if an appropriate protocol of sample storing 
+has been set and provided to all the operators
+Counting statistics 
+OSL (in resistor)
+Small to large, depending on dose and equipment and number and size of 
+resistors available on the electronic board
+Fading correction
+OSL (in resistor)
+Large, also depending on the knowledge of the time of exposure
+Shielding of circuit board by the other parts of 
+the mobile phone
+OSL (in resistor)
+Small to large, depending on radiation quality
+
+===== 페이지 36 / 52 =====
+36
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+2) Sources of uncertainty that are judged to contribute a relatively small amount to overall uncertainty:
+Factor
+Applicable to
+Qualitative magnitude of effect on uncertainty in dose estimate
+Circumstances of exposure, including type of 
+radiation, dose, dose rate
+Dicentrics, MN, Foci
+Judged to be small if appropriate calibration curves are used
+Fractionated or protracted doses
+Dicentrics, MN, Foci
+Small if identified and accounted for, e.g. through application of G function 
+in dicentric assay; Potential large effect if unidentified
+Shipping effect including sample temperature 
+and delay
+Dicentrics, MN, Foci
+Effect small for dicentric and micronucleus assays; magnitude of effect 
+potential large for foci assay
+Counting statistics
+Dicentrics, MN, Foci
+Small if minimum number of cells identified for each assay as part of the 
+project is adhered to
+Uncertainties in calibration curve
+Dicentrics, MN, Foci
+Small or non-existent at time of curve creation
+Inter-scorer or inter-laboratory variation
+Dicentrics, MN, Foci
+Judged to be small if appropriate training is given/skills are maintained and 
+own labs’ calibration curves are used
+Individual variation in background rate
+MN, Foci
+Small for MN if inter-individual uncertainty is incorporated in se on dose
+Distribution of resistors on the electronic board
+OSL (in resistor)
+Small
+Composition of glass
+EPR (in Gorilla glass)
+Small 
+Fading correction
+EPR (in Gorilla glass)
+Small
+Uncertainties in calibration curve
+EPR (in Gorilla glass)
+Small
+
+===== 페이지 37 / 52 =====
+37
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Appendix III
+International networks and resources within biodosimetry 
+ 
+Global
+IAEA Response and Assistance network RANET mechanism
+A network supporting the practical implementation of the IAEA 
+Assistance Convention (1986), consists of teams from mem-
+ber countries suitably qualified to respond rapidly to nuclear 
+or radiological emergencies. One of RANET’s capabilities is 
+Dose Assessment (DA). DA capabilities include, among others, 
+cytogenetic based biodosimetry, Electron Paramagnetic Reso-
+nance (EPR) and Optically Stimulated Luminescence (OSL). 
+Member countries can register National Assistance Capabili-
+ties (NAC) as Field Assistance Teams (FAT) or External Based 
+Support (EBS). As of March 2013 two countries (Argentina and 
+Slovenia) have registered for FAT in cytogenetic based dosime-
+try while nine countries have declared EBS (Argentina, Canada, 
+Finland, France, Hungary, Japan, Russian Federation, Turkey, 
+and United Kingdom).
+WHO International Health Regulations (IHR) mechanism
+Revision of IHR from 2005 extends to include also radia-
+tion and nuclear emergencies. IHR is now implemented in the 
+national legislation of 195 countries globally. IHR recognises 
+biodosimetry as one of the important capabilities in the member 
+countries and can assist/facilitate providing support in bio-
+dosimetry even in those countries that are not covered by the 
+IAEA Assistance Convention.
+WHO BioDoseNet
+WHO BioDoseNet was established in 2008 and is a global 
+network of over 60 biodosimetry laboratories whose role is to 
+support management and decision-making in cases of large 
+radiation emergency events where the capability of an indi-
+vidual laboratory is likely to be overwhelmed. In preparedness 
+for such events the BioDoseNet focuses on harmonization 
+of methodology, quality assurance, knowledge-sharing, and 
+intercomparision exercises. Thus BioDoseNet serves a support 
+function in the field of biodosimetry for Radiation Emergency 
+Medical Preparedness and Assistance Network (REMPAN) of 
+WHO.
+European
+The European tripartite network of BfS, HPA and IRSN
+The tripartite network  of BfS, HPA and IRSN was established 
+in 2004 and is a European biological dosimetry network of the 
+Federal Office for Radiation Protection (BfS, Germany), the 
+Health Protection Agency (HPA, now Public Health England, 
+United Kingdom) and the Institut de Radioprotection et de 
+Sûreté Nucléaire (IRSN, France). In form of a «Memoran-
+dum of Understanding» the cooporation between the three 
+biodosimetry units is described and the financial aspects are 
+regulated. The purpose of this biological dosimetry network is 
+to provide mutual assistance in case of a radiological emergency 
+to achieve fast reliable dose estimates with a high throughput of 
+samples.
+Nordic arrangements 
+In Nordic countries there is presently only one laboratory in 
+Finland at STUK that serves with biological dosimetry capabili-
+ties for Nordic countries based on informal agreements. These 
+agreements, although informal, are based on the traditionally 
+strong collaboration between Nordic countries in the field both 
+of radiological and nuclear emergency and public health (war-
+ranted by Nordic Radiation Emergency Assistance Agreement 
+from 1963 and Nordic Public Health Preparedness Agreement 
+from 2002).  
+There were however several collaboration projects on biological 
+dosimetry in Nordic countries. Nordic laboratories participate 
+also in the EU biodosimetry research projects (TENEB, this 
+project, and RENEB). The competence in biodosimetry exists 
+and capabilities may be built up in some other Nordic countries 
+if needed.
+The European Radiation Dosimetry Group EURADOS
+EURADOS is a network of more than 50 European institutions 
+(Voting Members) and 250 scientists (Associate Members) 
+working in all fields of dosimetry. One of the working areas of 
+EURADOS is retrospective dosimetry. That includes biologi-
+cal dosimetry as well as techniques like Electron Paramagnetic
+
+===== 페이지 38 / 52 =====
+38
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Resonance (EPR) and Optically Stimulated Luminescence. 
+EURADOS’s aims are technical development of the techniques, 
+harmonisation of the approaches across Europe through organi-
+sation of scientific meetings, inter-comparison exercises and 
+training. 
+The EU Commission had funded recently several projects that 
+aim to strengthen the biodosimetry capabilities in Europe:
+1.	
+TENEB (Towards a European Network of Excellence in 
+Biological Dosimetry) Coordination support action project 
+of the 7th framework EURATOM Programme for Nuclear 
+Research in 2009 with the aim to assess the capacities of 
+EU biodosimetry laboratories. 2009.
+2.	
+Multi-disciplinary biodosimetric tools to manage high scale 
+radiological casualties MULTIBIODOSE  ( this project)  
+2010 - 2013.  
+3.	
+BOOSTER BiO-dOSimetric Tools for triagE to Respond-
+ers.  2010 - 2013.  EU 7th framework Capability project 
+under theme SECURITY aiming to develop new technolo-
+gies for dose assessment.
+4.	
+Realizing the European Network of Biodosimetry 
+(RENEB) 2012 - 2015. A project that aims to establish a 
+sustainable European Network in Biodosimetry.
+Other regional initiatives
+In the past decade several biological dosimetry networks have 
+been established in other regions of the word, including the 
+Asian network, Canadian/US network and South American 
+Network. All these networks organise training activities and 
+inter-comparisons in order to harmonize approaches, increase 
+quality and capacity of performance in case of mass casualty 
+incidents through sharing efforts.
+
+===== 페이지 39 / 52 =====
+39
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Appendix IV.
+Examples for detailed protocols for taking and transporting the samples
+In mass casualty radiation emergency it will be important that some information about the transportation and sampling for biodo-
+simetry is available in advance. It would be desirable that this information is always updated. 
+Some examples for such protocols provided by Multibiodose partners in the end of 2012 are given in this Appendix.
+ 
+ 
+ 
+Centre for Radiation, Chemical and  
+Environmental Hazards 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BLOOD SAMPLES FOR CHROMOSOME ANALYSIS 
+ 
+The lymphocyte fraction of the blood sample will be cultured for 48 hours before analysis and it is 
+therefore important that the cells are free from microbial contamination.  We can supply sterile 
+lithium heparin vacutainers, or one from your own stock will be suitable.  Do not use tubes that 
+contain beads or gels.  Do not use EDTA tubes.  Sodium heparin tubes are OK but lithium heparin is 
+better. 
+ 
+The following precautions will help to ensure that the cultures are satisfactory:- 
+ 
+Sample size:  ideally 10 ml from each person. Some brands of tubes are designed to hold 7 or 
+9ml. These are OK. 
+ 
+Gently invert the tube several times to dissolve and mix the blood and heparin 
+ 
+If the sample is to be sent within the UK:- 
+1. 
+The Royal Mail and other couriers require that the specimen should be packed in 
+accordance with U.N. Regulation 650 (see ‘packaging’ below).  If you do not have such 
+packaging we can mail it to you, but this of course will require at least 24 hours. 
+2. 
+First class letter post is usually adequate.  If delays are possible, e.g. before Christmas, then 
+a commercial courier service may be more reliable.  Telephone confirmation of despatch 
+would be appreciated. 
+3. 
+Unless otherwise arranged, the blood sample should arrive on or before Wednesday in any 
+week, as this allows two clear days for culturing and avoids work over the weekend.  There 
+is no postal or courier delivery to our institute at weekends. 
+ 
+If the sample is being sent from outside the UK:- 
+Please try to ensure that the package is not X-rayed at airport security checks.  If this could happen 
+then include a piece of monitoring film, such as dental film, with the specimen. 
+We would prefer it if you used an international courier firm that will transport the sample rapidly and 
+directly to us.  If however we have to collect the specimen from London Heathrow airport then we 
+need to know in advance by telephone, FAX or e-mail the following information:- 
+1. 
+The flight number and estimated time of arrival. 
+2. 
+The package’s Air Waybill Number. 
+ 
+Packaging:- 
+The Royal Mail / other couriers and the International Air Transport Association (IATA) requires that 
+blood samples should be packed to conform with United Nation’s Regulation 650 for transporting 
+diagnostic specimens.  In brief, the specimen tube(s) must be placed with sufficient absorbent
+
+===== 페이지 40 / 52 =====
+40
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+material into a rigid, crush-proof and watertight secondary container. If specimen tubes or secondary 
+containers have screw caps these must be reinforced with adhesive tape. The secondary container 
+should then be placed in rigid outer packaging, e.g. a sturdy cardboard box, with suitable labelling. 
+Shipping of blood samples, not known to contain pathogens, for diagnostic purposes are 
+characterised as “UN 3373. BIOLOGICAL SUBSTANCE, CATEGORY B” The labelling should 
+therefore include this phrase together with a white diamond label with black letters “UN 3373”. In 
+addition the package should be marked with the sender’s name, address and telephone number; the 
+receiver’s name, address and telephone number; and the telephone number of a responsible 
+person, knowledgeable about the shipment. Some international courier firms do supply special 
+packaging that conforms with the regulation. 
+WHO guidance on regulations for the transport of infectious substances can be found at: 
+http://www.who.int/csr/resources/publications/biosafety/WHO_HSE_EPR_2008_10/en/index.html 
+ 
+It is not necessary for blood specimens for chromosomal analysis to be packed with ice or cooling 
+packs. 
+The package itself and the 'Nature and Quantity of Goods' box of the Air Waybill should show the 
+following wording: "Diagnostic specimen packed in compliance with IATA packing instruction 650." 
+Also please mark the package and paperwork with “Do not X-ray”. 
+Cytogenetics and Biomarkers Group 
+ 
+Tel: +44 (0)1235 822700 
+                     or    822699 
+ 
+Fax: +44 (0)1235 833891 
+ 
+e-mail: CHI - Cytogenetics@hpa.org.uk 
+ 
+Postal Address: Cytogenetics and Biomarkers Group  
+ 
+Health Protection Agency 
+ 
+Centre for Radiation, Chemical and Environmental Hazards 
+ 
+Chilton, Didcot, Oxon 
+ 
+OX11 0RQ 
+ 
+United Kingdom
+
+===== 페이지 41 / 52 =====
+41
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Information sheet:  
+Blood sampling for chromosome analysis 
+ 
+ 
+Reasons for a chromosome analysis 
+ 
+ in case no dosimeter was worn during an irradiation or irradiation in question 
+ 
+ in case there are discrepancies concerning the analysis of the physical radiation 
+monitoring   
+ 
+ in case of an assumed overexposure  
+ 
+Prearrangement for the blood sampling 
+ 
+ Contact by phone: 
+phone.:  +49 30 18 333 -2210 / -2213/ -2214/ -2216 
+fax:  +49 30 18 333 -2205 
+e-mail: HRomm@bfs.de, UOestreicher @bfs.de, Ukulka@bfs.de. 
+ 
+ Address: 
+ 
+Bundesamt für Strahlenschutz 
+Fachbereich Strahlenschutz und Gesundheit 
+AG-SG 1.1 Biologische Strahleneffekte, biologische Dosimetrie  
+Labor für Biologische Dosimetrie 
+phone: +49 30 18 333 - 2216 
+Ingolstädter Landstraße 1 
+85764 Oberschleissheim / Neuherberg 
+Germany 
+ 
+ An adequate „blood sampling system“ and user guidelines will be sent to you 
+by our laboratory. 
+ 
+ 
+Blood sampling 
+ 
+ blood sampling only with the sent blood sampling system 
+ 
+ blood samples should be taken and shipped on a Monday or Tuesday if possible 
+ 
+ keep the blood samples at room temperature 
+ 
+ 
+Shipment of blood samples 
+ 
+ use the packaging system that was sent to you  
+ use an express service for the shipment  
+ caution: no cooling during the shipment
+
+===== 페이지 42 / 52 =====
+42
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Data of blood sample for chromosomal analyses 
+ 
+ 
+Blood sample taken by :.....................................         Date of taken blood sample :............................. 
+Telephone-No.:....................................... 
+ 
+............................................................................................................................................................. 
+ 
+ 
+Exposed Person (Name) :.................................. 
+Date of birth:...................................... 
+ 
+ 
+Data about exposure : 
+ 
+1.Occupation in contest with overexposure : 
+ 
+ 
+ 
+ 
+2. Whole body exposure        O  
+Part body exposure      O 
+    Dose value :.................... 
+Part of body :..................................... 
+ 
+ 
+3. Type of radiation :  
+ 
+x - ray  
+O 
+kV 
+ 
+ 
+ 
+ 
+ 
+ 
+O 
+ 
+ 
+ 
+ 
+ 
+ 
+O 
+ 
+ 
+ 
+ 
+n 
+ 
+O 
+keV 
+ 
+ 
+4. Date of overexposure :......................... 
+ 
+............................................................................................................................................................. 
+Precedent exposure through medical treatment : 
+ 
+Radiation therapy 
+O 
+Date, Part of Body....................................... 
+x - ray diagnoses 
+O 
+Date, Part of Body....................................... 
+Nuclear medicine 
+O 
+Date, Part of Body....................................... 
+ 
+Illness 4 weeks before taking the blood sample:.................................................................... 
+ 
+Intake of medication : 
+ 
+O 
+Name of medicament :............................................................ 
+ 
+Smoker: 
+no: O 
+ 
+yes: O   number of / day: .................... 
+ 
+............................................................................................................................................................. 
+Results of chromosomal analyses to be sent to : 
+ 
+Name : ............................................................... 
+Adress : .............................................................. 
+                 ........................................................... 
+Telephone-No : ....................................................
+
+===== 페이지 43 / 52 =====
+43
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+
+===== 페이지 44 / 52 =====
+44
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+BLOOD SAMPLES FOR GAMMA-H2AX FOCI ANALYSIS 
+ 
+The gamma-H2AX foci assay is a technique for assessing exposure to ionising 
+radiation. The advantage of this technique is that a dose estimate can be given within 5 
+hours from the receipt of a blood sample. However, the rapid loss of gamma-H2AX 
+means a blood sample needs to be taken within 1 -2 days after a radiation exposure, 
+with the minimum detectable dose increasing from a few mGy for a sample taken 
+within 1 hour after the exposure to ~0.5 Gy for a lag time of 2 days between exposure 
+and sampling.  
+ 
+The following precautions are needed to ensure that blood samples are suitable for 
+foci analysis:- 
+ 
+ Blood collection tube should contain lithium heparin as the anti-coagulant. 
+Sodium heparin tubes are OK but lithium heparin is better1. We can supply 
+sterile lithium heparin vacutainers, or one from your own stock will be suitable.   
+ A sample size of at least 2 ml from each person is required. Some brands of 
+tubes are designed to hold 4, 7 or 10 ml and these are OK2. 
+ The blood must be kept cold using cooling packs or wet ice (0 – 4 °C) to prevent 
+any loss of gamma-H2AX signal. Do not allow the blood tube to be in direct 
+contact with the ice / cool pack. 
+ The sample should reach us as quickly as possible, within 24 hours of being 
+taken. This could be achieved by using a commercial express courier service or 
+samples being delivered by a member of the company’s staff, for example. 
+ If the first sample was taken only a few hours after exposure, a second sample 
+should be taken at 24 h in the case of a non-uniform exposure, to allow 
+lymphocytes to mix completely. An additional sample would also be required 
+approximately one week after exposure, to establish the individual base level for 
+this marker and thus further reduce the uncertainty of the dose estimate. 
+ 
+ 
+ 
+Packaging: 
+ 
+The Royal Mail / other couriers and the International Air Transport Association (IATA) 
+requires that blood samples should be packed to conform with United Nation’s 
+Regulation 650 for transporting diagnostic specimens.  In brief, the specimen tube(s) 
+must be placed with sufficient absorbent material into a rigid, crush-proof and 
+watertight secondary container. If specimen tubes or secondary containers have screw 
+                                                 
+1 EDTA blood collection tubes can be used, but the blood would then be unsuitable to use for the 
+chromosome aberration analysis.  
+2 Finger-prick samples of at least 0.09 ml (in heparin or EDTA) would also be acceptable if no 
+phlebotomist is available. A bigger volume (at least 6 ml) would enable additional chromosome 
+aberration analysis from the same sample.
+
+===== 페이지 45 / 52 =====
+45
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+caps these must be reinforced with adhesive tape. The secondary container should then 
+be placed in rigid outer packaging, e.g. a sturdy cardboard box, with suitable labelling. 
+Shipping of blood samples, not known to contain pathogens, for diagnostic purposes are 
+characterised as “UN 3373. BIOLOGICAL SUBSTANCE, CATEGORY B” The 
+labelling should therefore include this phrase together with a white diamond label with 
+black letters “UN 3373”. In addition the package should be marked with the sender’s 
+name, address and telephone number; the receiver’s name, address and telephone 
+number; and the telephone number of a responsible person, knowledgeable about the 
+shipment. Some international courier firms do supply special packaging that conforms 
+with the regulation. This packaging can also be supplied by the Cytogenetics and 
+Biomarkers Group when an analysis is requested. 
+ 
+WHO guidance on regulations for the transport of infectious substances can be found at: 
+http://www.who.int/csr/resources/publications/biosafety/WHO_HSE_EPR_2008_10/en/
+index.html 
+ 
+The package itself and the 'Nature and Quantity of Goods' box of the Air Waybill 
+should show the following wording: "Diagnostic specimen packed in compliance with 
+IATA packing instruction 650." Also please mark the package and paperwork with “Do 
+not X-ray”. 
+ 
+ 
+Cytogenetics and Biomarkers Group 
+ 
+Tel: +44 (0)1235 822700 
+                     or    822699 
+ 
+Fax: +44 (0)1235 833891 
+ 
+e-mail: CHI – Cytogenetics@hpa.org.uk 
+ 
+Postal Address: Cytogenetics and Biomarkers Group  
+ 
+Health Protection Agency 
+ 
+Centre for Radiation, Chemical and Environmental Hazards 
+ 
+Chilton, Didcot, Oxon 
+ 
+OX11 0RQ 
+ 
+United Kingdom
+
+===== 페이지 46 / 52 =====
+46
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+PRACTICAL INDICATIONS FOR COLLECTION AND TRANSPORT OF 
+MOBILE PHONES AND PORTABLE ELECTRONIC DEVICES (peds) 
+ 
+Any kind of mobile phone and ped can be used for OSL, whereas only some types of 
+smartphones are suitable for EPR. Herein, ped means mobile phone, note books, external 
+memory storage devices, memory keys, audio/video media players, camcorders or digital 
+cameras. 
+  
+People who are donating their portable devices, especially the mobile phones, should be 
+clearly informed that we are not going to use their private information therein contained. 
+For this reason it would be appropriate to let them keep sim cards and batteries.  
+ 
+ 
+1. Collection/selection and identification of samples 
+ 
+The devices can be collected on site or at the first aid department. Sim cards and batteries 
+can be removed because they were not needed. All samples,, should be coded or 
+identified to insure connection and traceability between estimated doses and ped owner 
+identity. 
+Collected ped should be stored in the dark (boxes, bags,..). 
+ 
+2. Transportation and storage of samples  
+  
+Collected ped should be transported in opaque boxes or bags.
+
+===== 페이지 47 / 52 =====
+47
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Appendix V
+Available important reference materials on biodosimetry
+1.	
+International Atomic Energy Agency. Cytogenetic analysis 
+for radiation dose assessment. A manual. IAEA Technical 
+Report Series 405 (2001). 
+2.	
+International Atomic Energy Agency.Cytogenetic Dosimetry: 
+applications in Preparedness for and Response to Radiation 
+Emergency.EPR-Boiodosimetry.(2011) 
+3.	
+International Organisation for Standardisation. Radiation 
+protection - Performance criteria for laboratories perform-
+ing cytogenetic triage for assessment of mass casualties 
+in radiological or nuclear emergencies - General principles 
+and application to dicentric assay. International Standard 
+ISO 21243. (Geneva: ISO) (2008). 
+4.	
+International Organisation for Standardisation. Radiation 
+protection - Performance criteria for service laboratories 
+performing biological dosimetry by cytogenetics. Interna-
+tional Standard ISO 19238. (Geneva: ISO) (2004).  
+5.	
+International Atomic Energy Agency. Generic procedures for 
+medical response during a nuclear or radiological emer-
+gency EPR Medical (2005) 
+6.	
+International Atomic Energy Agency IAEA Response and 
+Assistance Network. EPR-RANET (2010) 
+7.	
+Rojas-Palma C, Liland A, Jerstad AN, Etherington G, Pérez 
+MR, Rahola T, Smith K, editors. TMT handbook: Triage, 
+monitoring and treatment of people exposed to ionising 
+radiation following a malevolent act. Oesteras: Norwegian 
+Radiation Protection Authority, 2009.  http://www.tmthand-
+book.org/tmtdoc/ 
+8.	
+WHO BioDoseNet http://www.biodosenet.org/ 
+9.	
+REMM Radiation Emergency Medical Management: Guid-
+ance on diagnosis & treatment for health care providers. 
+WashingtonDC. Department of Health and Human Services; 
+office of the Assistant Secretary for Preparedness and Re-
+sponse, 2012. http://www.remm.nlm.gov/ 
+10.	 Fliedner TM, Friescke I, Beyrer K (eds).Medical manage-
+ment of radiation accidents- Manual on the acute radiation 
+syndrome. British Institute of Radiology. London, 2001
+
+===== 페이지 48 / 52 =====
+48
+Guidance for using MULTIBIODOSE tools in Emergencies – for Radiation Emergency Response Organisations in Europe
+Appendix VI
+Definitions and acronyms
+In order to avoid confusion, we provide definitions of some terms 
+used in the guidance. Short descriptions of the MBD tools are 
+given in chapter 4. 
+• 
+Acute exposure: exposure during a short period time,  
+usually minutes to few hours. 
+• 
+ARS: Acute Radiation Syndrome. 
+• 
+Biodosimetric triage: sorting of people according to the 
+absorbed dose as assessed by biological dosimetry.  
+• 
+Biological dosimetry: assessment of absorbed dose 
+based on the level of biological damage inflicted by radia-
+tion. In MBD we also include EPR and OSL as biological 
+dosimeters because we use the methods to assess the 
+dose absorbed by personal electronic devices carried on 
+the body.  
+• 
+EPR: electron paramagnetic resonance. 
+• 
+Full mode biological dosimetry: slow analysis of a sample 
+with the intention to estimate the dose with high precision. 
+• 
+Large radiological emergency: an accident scenario with 
+more than 1000 exposed or potentially exposed people.  
+• 
+Partial body exposure: exposure of a part of the body. Per 
+unit dose, partial body exposure is associated with a lower 
+level of health effects as compared to whole body.  
+• 
+MBD: multibiodose. 
+• 
+OSL: optically stimulated luminescence. 
+• 
+PBE: partial body exposure 
+• 
+PBL: peripheral blood lymphocytes. 
+• 
+PED: personal electronic devices. 
+• 
+Protracted exposure: exposure during a period of time 
+longer than a few hours. 
+• 
+RDD: radiological dispersion device. 
+• 
+RED: radiological exposure device. 
+• 
+Triage mode biological dosimetry: quick analysis of a 
+sample with the intention to discriminate between dose 
+categories: LOW, MEDIUM, HIGH. 
+• 
+Triage mode of biodosimetry: fast assessment of dose by 
+biological dosimetry with the aim to categorise people into 
+groups of low, moderate and high exposure. 
+• 
+Worried well: people who wrongly suspect that they were 
+exposed to radiation. They may show such symptoms of 
+ARS such as vomiting, dizziness and diarrhoea.
+
+===== 페이지 49 / 52 =====
+
+
+===== 페이지 50 / 52 =====
+
+
+===== 페이지 51 / 52 =====
+
+
+===== 페이지 52 / 52 =====
+The MULTIBIODOSE project was financed by the European Commission within  
+the 7th EU Framework under Theme 10 - SECURITY.
+Multibiodose Coordinator: Andrzej Wojcik
+Centre for Radiation Protection Research
+MBW Department
+Stockholm University, Svante Arrhenius väg 20C
+106 91 Stockholm, Sweden.
+Tel: +46 8 16 1217
+Fax: +46 8 16 4315 
+Tel. mobile: +46 762 122 744
+www.multibiodose.eu

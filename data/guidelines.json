@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "version": 2,
+    "purpose": "프로토타입이 따르는 ‘설계 원칙’과, 향후 공식 지침·매뉴얼과 대조할 때 쓸 앵커 문장입니다.",
+    "important": "아래 문장은 IAEA·MULTIBIODOSE 등 공식 문서의 직접 인용이 아닙니다. 교수·연구팀이 절·표·페이지를 붙여 ‘확인됨’으로 갱신하기 전까지는 참고용입니다."
+  },
+  "principles": [
+    {
+      "id": "GP01",
+      "title": "방사선 비상 시나리오용 생물학적 선량평가 의사결정 ‘지원’",
+      "text": "이 도구는 비상 대응 계획·교육·연구 맥락에서 선택지를 정리하기 위한 참고 프레임입니다. 현장 SOP·법규·의료기관 지침을 대체하지 않습니다.",
+      "evidence_status": "design_brief",
+      "documentation_hint": "IAEA EPR-Biodosimetry, EPR-Medical 등과 용어·범위를 대조해 갱신하세요."
+    },
+    {
+      "id": "GP02",
+      "title": "선별(triage) 관련 의사결정 지원, 최종 의학적 판단 아님",
+      "text": "출력은 ‘누구를 언제 어떤 경로로 보낼지’ 같은 운영·선별 논의를 돕기 위한 것이며, 진단명·치료 결정을 내리지 않습니다.",
+      "evidence_status": "design_brief",
+      "documentation_hint": "응급·방사선의학 지침과 역할 분담을 확인하세요."
+    },
+    {
+      "id": "GP03",
+      "title": "검사(assay) 적합성은 경과 시간·규모·노출 불확실성 등에 좌우",
+      "text": "같은 검사라도 노출 시각 신뢰도, 사고 규모, 노출 경로 정보, 채질·운송 조건에 따라 실용성과 해석이 달라질 수 있습니다. 따라서 ‘단정적 추천’ 대신 조건을 드러내는 쪽이 안전합니다.",
+      "evidence_status": "design_brief",
+      "documentation_hint": "검사별 시간창·품질요건은 MULTIBIODOSE·기관 SOP 등과 대조."
+    },
+    {
+      "id": "GP04",
+      "title": "대규모 사고는 우선순위·자원 현실을 전제로 한 워크플로가 필요",
+      "text": "대상 인원이 많을수록 처리량·시약·인력·물류 병목이 커질 수 있어, 전원 동일 검사 전제는 통상 현실적이지 않습니다. 우선순위·단계적 접근을 전제로 계획을 점검합니다.",
+      "evidence_status": "design_brief",
+      "documentation_hint": "IAEA EPR-Biodosimetry의 대량 대상·역량 주제와 정합성 확인."
+    },
+    {
+      "id": "GP05",
+      "title": "권고와 함께 불확실성·한계를 명시",
+      "text": "입력은 거칠고(예: 증상·자원·인원), 시나리오는 변할 수 있습니다. 권고문에는 한계·추가 확인이 필요한 지점을 함께 제시합니다.",
+      "evidence_status": "design_brief",
+      "documentation_hint": "과제·기관의 윤리·면책 문구와 함께 검토."
+    }
+  ]
+}
