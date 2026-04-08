@@ -56,6 +56,18 @@ NEXT_ACTIONS_BY_RULE: dict[str, tuple[str, ...]] = {
 }
 
 
+DEFAULT_FALLBACK_ACTIONS: tuple[str, ...] = (
+    "노출 시각·경로·핵종·증상 정보를 다시 확인합니다.",
+    "공식 지침과 기관 SOP에서 가장 가까운 대응 경로를 수동으로 대조합니다.",
+    "의뢰 가능한 실험실·의료기관과 역할·연락 경로를 확인합니다.",
+)
+
+
+def active_triggered_rules(ev: EvaluationResult) -> tuple[TriggeredRuleView, ...]:
+    """상단 요약·즉시 조치에 반영할 우선 규칙 집합."""
+    return ev.summary_triggered or ev.triggered
+
+
 def scenario_condition_tags(scenario: Mapping[str, Any]) -> list[str]:
     """입력값만 보고 ‘어떤 상황 신호가 켜졌는지’ 짧은 한글 태그로 만듭니다."""
     tags: list[str] = []
@@ -188,7 +200,7 @@ def uncertainty_level(scenario: Mapping[str, Any], ev: EvaluationResult) -> tupl
 def recommended_next_actions(scenario: Mapping[str, Any], ev: EvaluationResult, *, max_items: int = 5) -> list[str]:
     """운영·계획 관점 다음 조치(의료 처지 지시 아님)."""
     collected: list[str] = []
-    for t in ev.triggered:
+    for t in active_triggered_rules(ev):
         extra = NEXT_ACTIONS_BY_RULE.get(t.rule_id)
         if extra:
             collected.extend(extra)
@@ -200,7 +212,11 @@ def recommended_next_actions(scenario: Mapping[str, Any], ev: EvaluationResult, 
         collected.append(
             "내부 오염 경로를 과소평가하지 않도록, 생물학적 선량평가 결과를 단독으로 해석하지 않습니다."
         )
-    if scenario.get("resource_level") == "minimal" and int(scenario.get("num_exposed", 0)) >= 30:
+    if (
+        ev.synthesized_priority != "critical"
+        and scenario.get("resource_level") == "minimal"
+        and int(scenario.get("num_exposed", 0)) >= 30
+    ):
         collected.append("전원 동일 검사보다 단계적·선별 중심 전략을 우선 검토합니다.")
 
     seen: set[str] = set()
@@ -214,12 +230,22 @@ def recommended_next_actions(scenario: Mapping[str, Any], ev: EvaluationResult, 
         if len(out) >= max_items:
             break
 
-    if len(out) < 3 and ev.triggered:
-        out.append("발화된 규칙의 `source_note` 를 공식 지침과 대조해 검증합니다.")
-    while len(out) < 3:
-        out.append("기관 SOP·법규·윤리 가이드에 따라 역할과 의사소통 경로를 확인합니다.")
-        if len(out) >= 3:
+    target_min = min(3, max_items)
+    if len(out) < target_min and active_triggered_rules(ev):
+        verify_line = "발화된 규칙의 `source_note` 를 공식 지침과 대조해 검증합니다."
+        if verify_line not in seen:
+            seen.add(verify_line)
+            out.append(verify_line)
+
+    for line in DEFAULT_FALLBACK_ACTIONS:
+        if len(out) >= target_min:
             break
+        s = line.strip()
+        if not s or s in seen:
+            continue
+        seen.add(s)
+        out.append(s)
+
     return out[:max_items]
 
 

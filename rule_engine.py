@@ -46,6 +46,7 @@ class EvaluationResult:
     """한 시나리오에 대한 최종 요약 + 근거(발화 규칙들)."""
 
     triggered: tuple[TriggeredRuleView, ...] = ()
+    summary_triggered: tuple[TriggeredRuleView, ...] = ()
     synthesized_priority: str | None = None
     biodosimetry_direction: str = ""
     assay_options: tuple[str, ...] = ()
@@ -185,6 +186,18 @@ def _priority_rank(order: list[str], priority: str) -> int:
     return len(order)
 
 
+def _highest_priority_rules(
+    triggered: list[TriggeredRuleView],
+    order: list[str],
+) -> tuple[str, tuple[TriggeredRuleView, ...]]:
+    best_priority = min(
+        (t.response_priority for t in triggered),
+        key=lambda p: _priority_rank(order, p),
+    )
+    summary_triggered = tuple(t for t in triggered if t.response_priority == best_priority)
+    return best_priority, summary_triggered
+
+
 def _dedupe_texts(items: list[str]) -> tuple[str, ...]:
     seen: set[str] = set()
     out: list[str] = []
@@ -274,6 +287,7 @@ def evaluate(
         ]
         return EvaluationResult(
             triggered=tuple(),
+            summary_triggered=tuple(),
             synthesized_priority=None,
             biodosimetry_direction="조건을 만족하는 규칙이 없습니다. rules.json 을 보완하거나 입력을 바꿔 보세요.",
             assay_options=tuple(),
@@ -288,27 +302,27 @@ def evaluate(
             "공식 매뉴얼·SOP로 검증하기 전에는 확정 근거로 사용하지 마세요."
         )
 
-    best_priority = min(
-        (t.response_priority for t in triggered),
-        key=lambda p: _priority_rank(order, p),
-    )
+    best_priority, summary_triggered = _highest_priority_rules(triggered, order)
 
     directions: list[str] = []
     assays: list[str] = []
     cautions: list[str] = []
     reasoning_lines: list[str] = []
     for t in triggered:
+        tag = "needs_confirmation" if t.evidence_status == "needs_confirmation" else t.evidence_status
+        reasoning_lines.append(f"{t.rule_id} — {t.title} ({tag})")
+
+    for t in summary_triggered:
         if t.biodosimetry_direction:
             directions.append(f"[{t.rule_id}] {t.biodosimetry_direction}")
         assays.extend(t.assay_options)
         cautions.extend(t.cautions)
-        tag = "needs_confirmation" if t.evidence_status == "needs_confirmation" else t.evidence_status
-        reasoning_lines.append(f"{t.rule_id} — {t.title} ({tag})")
 
     cautions.extend(system_cautions)
 
     return EvaluationResult(
         triggered=tuple(triggered),
+        summary_triggered=summary_triggered,
         synthesized_priority=best_priority,
         biodosimetry_direction="\n\n".join(directions),
         assay_options=_dedupe_texts(list(assays)),
