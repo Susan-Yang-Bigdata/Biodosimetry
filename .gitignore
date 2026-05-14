@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 data/saved_scenarios.json
 tests/_tmp/
+
+# 발표·영상은 로컬만 두고 GitHub에는 올리지 않음 (루트 기준)
+/*.mp4
+/*.pptx
