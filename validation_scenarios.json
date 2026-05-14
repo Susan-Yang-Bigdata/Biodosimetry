@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "purpose": "교수님 피드백 이후, 대표 시나리오에서 현재 규칙 결과가 어떤 판단 방향을 내는지 점검하기 위한 검토 메모",
+    "interpretation_note": "예상 우선순위와 검토 포인트는 발표용 설명을 돕기 위한 요약이며, 최종 의학적 결정을 의미하지 않는다."
+  },
+  "scenarios": [
+    {
+      "label": "다수 노출 + 자원 제한",
+      "expected_priority": "high",
+      "review_focus": "대상자 수와 자원 부족이 함께 있으면 정밀 검사보다 선별, 처리량, 외부 연계 조정이 먼저 나오는지 확인",
+      "expected_findings": [
+        "전원 동일 검사보다 단계적 triage 운영이 먼저 언급되어야 한다.",
+        "병목 지점과 연계기관 배분 필요성이 결과에 포함되어야 한다."
+      ],
+      "scenario": {
+        "incident_scale": "regional",
+        "elapsed_hours": 24,
+        "num_exposed": 150,
+        "exposure_known": false,
+        "partial_body_suspected": false,
+        "internal_contamination_suspected": false,
+        "symptom_severity": "none",
+        "resource_level": "minimal"
+      }
+    },
+    {
+      "label": "노출 불명 + 중증 증상",
+      "expected_priority": "critical",
+      "review_focus": "중증 증상이 있는 경우 생물학적 선량평가보다 의료 연계와 임상 확인이 먼저 강조되는지 확인",
+      "expected_findings": [
+        "상단 요약에서 의료 우선 메시지가 가장 먼저 제시되어야 한다.",
+        "정밀 검사 계획 같은 하위 우선순위 안내는 즉시 조치 앞쪽에 섞이지 않아야 한다."
+      ],
+      "scenario": {
+        "incident_scale": "local",
+        "elapsed_hours": 12,
+        "num_exposed": 10,
+        "exposure_known": false,
+        "partial_body_suspected": false,
+        "internal_contamination_suspected": false,
+        "symptom_severity": "severe",
+        "resource_level": "full"
+      }
+    },
+    {
+      "label": "내부 오염 가능성 중심 검토",
+      "expected_priority": "high",
+      "review_focus": "혈액 기반 결과만으로 끝내지 않고 bioassay, 체내 오염 평가 경로를 병행하라는 메시지가 나오는지 확인",
+      "expected_findings": [
+        "내부 오염 경로를 별도 평가해야 한다는 설명이 포함되어야 한다.",
+        "소변·분변 또는 bioassay 같은 추가 경로 검토가 결과에 반영되어야 한다."
+      ],
+      "scenario": {
+        "incident_scale": "local",
+        "elapsed_hours": 8,
+        "num_exposed": 12,
+        "exposure_known": false,
+        "partial_body_suspected": false,
+        "internal_contamination_suspected": true,
+        "symptom_severity": "mild",
+        "resource_level": "moderate"
+      }
+    },
+    {
+      "label": "부분피폭 해석 주의",
+      "expected_priority": "medium",
+      "review_focus": "전신 평균선량 가정만으로는 부족할 수 있다는 주의 메시지가 포함되는지 확인",
+      "expected_findings": [
+        "부분피폭 가능성이 있으면 물리 정보와 임상 정보 병행 검토가 필요하다는 설명이 나와야 한다.",
+        "전신 평균 해석의 한계가 결과에 드러나야 한다."
+      ],
+      "scenario": {
+        "incident_scale": "local",
+        "elapsed_hours": 18,
+        "num_exposed": 6,
+        "exposure_known": true,
+        "partial_body_suspected": true,
+        "internal_contamination_suspected": false,
+        "symptom_severity": "mild",
+        "resource_level": "moderate"
+      }
+    }
+  ]
+}

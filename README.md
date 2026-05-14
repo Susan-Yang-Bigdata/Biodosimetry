@@ -39,9 +39,18 @@ Windows에서는 `run_app.bat` 을 더블클릭해도 됩니다.
 | `recommendation_helpers.py` | 권고 카드·왜?·다음 조치·불확실성·PDF 검색어(규칙 id별 문장 편집 가능) |
 | `rules.json` | 규칙 정의(`guideline_refs` 로 GP 원칙과 연결) |
 | `data/guidelines.json` | 설계 원칙 GP01–GP05(공식 문서 직접 인용 아님 — 대조 후 갱신) |
+| `data/input_condition_rationale.json` | 입력조건별 선정 이유, 반영 의미, 참고 문헌 위치 메모 |
 | `rule_engine.py` | 규칙·지침 읽기, 매칭, 결과 합성 |
 | `data/sample_scenarios.json` | 입력 예시(참고용) |
+| `data/validation_scenarios.json` | 대표 시나리오 검토 메모(발표·점검용) |
 | `pdf_lookup.py` | PDF 텍스트 추출·키워드 발췌(ML/OCR 없음) |
+
+## 입력조건 선정 기준
+
+- 현재 입력조건은 **단일 매뉴얼의 체크리스트를 그대로 복제한 것**이 아니라, IAEA EPR-Biodosimetry, IAEA EPR-Medical, MULTIBIODOSE, NCRP Commentary 19 등에서 반복적으로 등장하는 판단 요소를 **UI 입력 변수로 단순화**한 것입니다.
+- `사고 대응 범위`, `잠재 노출 인원`, `노출 후 경과 시간`, `노출 시각·위치·경로 정보`, `부분피폭 가능성`, `내부 오염 가능성`, `증상 수준`, `가용 자원 수준`을 입력값으로 사용합니다.
+- 각 입력조건별 근거 메모와 참고 문헌 위치는 `data/input_condition_rationale.json` 에 정리했습니다.
+- 대표 시나리오별 검토 포인트는 `data/validation_scenarios.json` 에 정리했습니다.
 
 ## PDF 일괄 OCR (검색 가능 PDF / 텍스트)
 

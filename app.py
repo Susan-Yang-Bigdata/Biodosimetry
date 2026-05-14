@@ -11,6 +11,7 @@ from __future__ import annotations
 from datetime import datetime
 import html
 import importlib.util
+import json
 import sys
 from pathlib import Path
 from typing import Any
@@ -18,6 +19,8 @@ from typing import Any
 import streamlit as st
 
 _APP_DIR = Path(__file__).resolve().parent
+INPUT_CONDITION_RATIONALE_PATH = _APP_DIR / "data" / "input_condition_rationale.json"
+VALIDATION_SCENARIOS_PATH = _APP_DIR / "data" / "validation_scenarios.json"
 
 SINGLE_ANALYSIS_STATE_KEY = "single_analysis_scenario"
 COMPARE_ANALYSIS_A_STATE_KEY = "compare_analysis_scenario_a"
@@ -61,6 +64,15 @@ def _load_sibling_py(name: str):
     sys.modules[name] = mod
     spec.loader.exec_module(mod)
     return mod
+
+
+def _load_json_dict(path: Path) -> dict[str, Any]:
+    if not path.is_file():
+        raise FileNotFoundError(f"필수 JSON 파일을 찾을 수 없습니다: {path}")
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise ValueError(f"최상위 JSON 구조는 객체여야 합니다: {path}")
+    return data
 
 
 _pdf = _load_sibling_py("pdf_lookup")
@@ -156,7 +168,7 @@ def collect_scenario(
         box.markdown("### 시나리오 입력")
 
     incident_scale = box.selectbox(
-        "사고 범위",
+        "사고 대응 범위",
         options=["local", "regional", "national", "international"],
         format_func=lambda x: {
             "local": "지역",
@@ -165,7 +177,7 @@ def collect_scenario(
             "international": "국제",
         }[x],
         key=_k("incident_scale"),
-        help="사고가 영향을 미치는 조직·지리 범위를 거칠게 나타냅니다.",
+        help="현장 대응이 기관 내부인지, 광역 조정이 필요한지 같은 운영 범위를 거칠게 나타냅니다.",
     )
     elapsed_hours = box.slider(
         "노출 후 경과 시간 (시간)",
@@ -186,10 +198,10 @@ def collect_scenario(
         help="확정 인원이 아니어도 됩니다. 현재 대응에서 고려 중인 대상을 입력합니다.",
     )
     exposure_known = box.toggle(
-        "노출 정보가 비교적 명확함",
+        "노출 시각·위치·경로 정보가 비교적 명확함",
         value=False,
         key=_k("exposure_known"),
-        help="노출 시각·경로·관련 정보가 어느 정도 정리되어 있는지 표시합니다.",
+        help="목격 정보, 위치, 거리, 시간대처럼 초기 선별과 해석에 필요한 노출 이력이 어느 정도 정리돼 있는지 표시합니다.",
     )
     partial_body = box.toggle(
         "부분피폭 가능성",
@@ -222,7 +234,7 @@ def collect_scenario(
         index=1,
         format_func=lambda x: {"minimal": "제한", "moderate": "보통", "full": "충분"}[x],
         key=_k("resource"),
-        help="실험실 처리량, 인력, 장비, 연계기관 가용성을 종합적으로 나타냅니다.",
+        help="실험실 처리량, 인력, 장비, 외부 기관 연계 가능성을 합쳐 현재 운영 여력을 나타냅니다.",
     )
 
     return {
@@ -555,12 +567,93 @@ def render_project_header() -> None:
     )
 
 
+def _input_condition_rows(rationale_data: dict[str, Any]) -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+    for item in rationale_data.get("conditions") or []:
+        if not isinstance(item, dict):
+            continue
+        topics = item.get("source_topics") or []
+        topic_text = ", ".join(str(t).strip() for t in topics if str(t).strip())
+        rows.append({
+            "입력 조건": str(item.get("label", "")).strip(),
+            "현재 입력 형태": str(item.get("current_input", "")).strip(),
+            "판단에 반영한 의미": str(item.get("meaning", "")).strip(),
+            "근거 성격": str(item.get("evidence_type", "")).strip(),
+            "연결 주제": topic_text,
+        })
+    return rows
+
+
+def _validation_scenario_title(item: dict[str, Any]) -> str:
+    label = str(item.get("label", "")).strip()
+    priority = str(item.get("expected_priority", "")).strip()
+    if not priority:
+        return label
+    return f"{label} · 예상 우선순위 {priority}"
+
+
+def render_methodology_notes(
+    rationale_data: dict[str, Any],
+    validation_data: dict[str, Any],
+) -> None:
+    with st.expander("입력조건 선정 기준", expanded=False):
+        meta = rationale_data.get("meta") or {}
+        st.caption(str(meta.get("purpose") or "입력조건은 단일 매뉴얼 복제가 아니라 반복적으로 등장하는 판단 요소를 UI 입력으로 단순화한 것입니다."))
+        st.info(str(meta.get("interpretation_note") or "직접 차용과 개념적 재구성을 구분해 설명합니다."))
+        rows = _input_condition_rows(rationale_data)
+        if rows:
+            st.dataframe(rows, hide_index=True, use_container_width=True)
+        for item in rationale_data.get("conditions") or []:
+            if not isinstance(item, dict):
+                continue
+            label = str(item.get("label", "")).strip()
+            meaning = str(item.get("meaning", "")).strip()
+            heading = label if not meaning else f"{label} — {meaning}"
+            with st.expander(heading, expanded=False):
+                st.markdown(f"- 현재 입력 형태: {item.get('current_input', '')}")
+                st.markdown(f"- 선정 이유: {item.get('selection_basis', '')}")
+                st.markdown(f"- 근거 성격: {item.get('evidence_type', '')}")
+                topics = item.get("source_topics") or []
+                if topics:
+                    st.markdown(f"- 연결 주제: {', '.join(str(t) for t in topics)}")
+                refs = item.get("source_refs") or []
+                if refs:
+                    st.markdown("- 참고한 문헌 위치")
+                    for ref in refs:
+                        if not isinstance(ref, dict):
+                            continue
+                        document = str(ref.get("document", "")).strip()
+                        note = str(ref.get("note", "")).strip()
+                        line = ref.get("line")
+                        path = str(ref.get("path", "")).strip()
+                        pieces = [p for p in [document, f"line {line}" if line else "", note] if p]
+                        st.markdown(f"  - {' · '.join(pieces)}")
+                        if path:
+                            st.caption(path)
+
+    with st.expander("대표 시나리오 검토 메모", expanded=False):
+        meta = validation_data.get("meta") or {}
+        st.caption(str(meta.get("purpose") or "대표 시나리오에서 규칙 결과가 의도한 방향으로 나오는지 확인한 메모입니다."))
+        for item in validation_data.get("scenarios") or []:
+            if not isinstance(item, dict):
+                continue
+            with st.expander(_validation_scenario_title(item), expanded=False):
+                scenario = item.get("scenario")
+                if isinstance(scenario, dict):
+                    summary = ", ".join(f"{label}: {value}" for label, value in _scenario_summary_pairs(scenario))
+                    st.markdown(f"- 입력 요약: {summary}")
+                st.markdown(f"- 검토 포인트: {item.get('review_focus', '')}")
+                findings = item.get("expected_findings") or []
+                for finding in findings:
+                    st.markdown(f"- {finding}")
+
+
 def _scenario_summary_pairs(scenario: dict[str, Any]) -> list[tuple[str, str]]:
     return [
-        ("사고 범위", SCALE_LABELS[str(scenario.get("incident_scale", "local"))]),
+        ("사고 대응 범위", SCALE_LABELS[str(scenario.get("incident_scale", "local"))]),
         ("잠재 노출 인원", f"{int(scenario.get('num_exposed', 0))}명"),
         ("노출 후 경과 시간", f"{float(scenario.get('elapsed_hours', 0)):.1f}시간"),
-        ("노출 정보", "비교적 명확" if scenario.get("exposure_known") else "불명"),
+        ("노출 시각·위치·경로 정보", "비교적 명확" if scenario.get("exposure_known") else "불명"),
         ("부분피폭 가능성", "있음" if scenario.get("partial_body_suspected") else "낮음"),
         ("내부 오염 가능성", "있음" if scenario.get("internal_contamination_suspected") else "낮음"),
         ("증상 수준", SYMPTOM_LABELS[str(scenario.get("symptom_severity", "none"))]),
@@ -1156,6 +1249,11 @@ def _cached_guidelines(path_str: str, _mtime: float) -> dict[str, Any]:
     return load_guidelines_json(Path(path_str))
 
 
+@st.cache_data
+def _cached_json_file(path_str: str, _mtime: float) -> dict[str, Any]:
+    return _load_json_dict(Path(path_str))
+
+
 def _render_pdf_lookup_tab(
     scenario_hint: dict[str, Any] | None,
     ev_hint: EvaluationResult | None,
@@ -1228,7 +1326,11 @@ def main() -> None:
     rules_data = _cached_rules(str(rules_path), rules_path.stat().st_mtime)
     guidelines_path = default_guidelines_path(rules_data)
     guidelines_data = _cached_guidelines(str(guidelines_path), guidelines_path.stat().st_mtime)
+    rationale_data = _cached_json_file(str(INPUT_CONDITION_RATIONALE_PATH), INPUT_CONDITION_RATIONALE_PATH.stat().st_mtime)
+    validation_data = _cached_json_file(str(VALIDATION_SCENARIOS_PATH), VALIDATION_SCENARIOS_PATH.stat().st_mtime)
     saved_scenarios_path = default_saved_scenarios_path()
+
+    render_methodology_notes(rationale_data, validation_data)
 
     mode = st.radio(
         "분석 모드",
