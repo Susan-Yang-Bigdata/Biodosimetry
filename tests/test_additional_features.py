@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 import shutil
 import unittest
@@ -106,6 +107,32 @@ class AdditionalFeatureTests(unittest.TestCase):
         self.assertTrue(any("대응 우선순위" in line for line in decision_diffs))
         self.assertIn("입력 차이 설명", report)
         self.assertIn("판단 차이 설명", report)
+
+    def test_input_condition_rationale_rows_cover_all_current_fields(self) -> None:
+        rationale_path = ROOT / "data" / "input_condition_rationale.json"
+        rationale_data = json.loads(rationale_path.read_text(encoding="utf-8"))
+
+        rows = app._input_condition_rows(rationale_data)
+        labels = {row["입력 조건"] for row in rows}
+
+        self.assertEqual(len(rows), 8)
+        self.assertIn("사고 대응 범위", labels)
+        self.assertIn("노출 후 경과 시간", labels)
+        self.assertIn("노출 시각·위치·경로 정보 확보 여부", labels)
+        self.assertTrue(all(row["근거 성격"] for row in rows))
+
+    def test_validation_scenarios_include_critical_and_internal_contamination_cases(self) -> None:
+        validation_path = ROOT / "data" / "validation_scenarios.json"
+        validation_data = json.loads(validation_path.read_text(encoding="utf-8"))
+
+        scenarios = validation_data["scenarios"]
+        labels = {item["label"] for item in scenarios}
+        priorities = {item["expected_priority"] for item in scenarios}
+
+        self.assertGreaterEqual(len(scenarios), 4)
+        self.assertIn("노출 불명 + 중증 증상", labels)
+        self.assertIn("내부 오염 가능성 중심 검토", labels)
+        self.assertIn("critical", priorities)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "purpose": "입력조건은 단일 매뉴얼 문항을 그대로 복제한 것이 아니라, 방사선 비상과 생물학적 선량평가 문헌에서 반복적으로 등장하는 판단 요소를 UI 입력으로 단순화해 정리한 것이다.",
+    "interpretation_note": "근거 성격은 '문헌 표현과 비교적 직접 연결'과 '문헌 개념을 UI 변수로 재구성'으로 구분한다.",
+    "limitations_note": "현재는 발표와 설계 검토를 위한 근거 메모이며, 최종적으로는 기관 SOP와 공식 가이드라인 대조가 더 필요하다."
+  },
+  "conditions": [
+    {
+      "field": "incident_scale",
+      "label": "사고 대응 범위",
+      "current_input": "지역 / 광역 / 국가 / 국제",
+      "meaning": "사고 규모에 따라 기관 간 조정 범위와 운영 복잡도가 달라지는지 반영",
+      "selection_basis": "대량 노출과 광역 사고에서는 단일 검사 계획보다 조정·연계·자원 배분 문제가 먼저 커지므로, 운영 범위를 별도 입력으로 두었다.",
+      "evidence_type": "문헌 개념을 UI 변수로 재구성",
+      "source_topics": ["mass casualty events", "population triage", "resource planning and coordination"],
+      "source_refs": [
+        {
+          "document": "IAEA EPR-Biodosimetry 2011",
+          "path": "data/pdfs_ocr/EPR-Biodosimetry 2011_web_extracted.txt",
+          "line": 451,
+          "note": "mass casualty events"
+        },
+        {
+          "document": "IAEA EPR-Biodosimetry 2011",
+          "path": "data/pdfs_ocr/EPR-Biodosimetry 2011_web_extracted.txt",
+          "line": 459,
+          "note": "application to population triage"
+        },
+        {
+          "document": "NCRP Commentary No. 19",
+          "path": "data/pdfs_ocr/ncw155_extracted.txt",
+          "line": 812,
+          "note": "planning and coordination of resources"
+        }
+      ]
+    },
+    {
+      "field": "num_exposed",
+      "label": "잠재 노출 인원 수",
+      "current_input": "정수 입력",
+      "meaning": "대상자 수가 늘어날수록 triage와 처리량 중심 판단이 필요한지 반영",
+      "selection_basis": "동일한 사고라도 대상자 수가 적을 때와 많을 때 필요한 검사 전략과 자원 배분 전략이 달라지므로 별도 입력으로 두었다.",
+      "evidence_type": "문헌 표현과 비교적 직접 연결",
+      "source_topics": ["triage dose", "mass casualty triage", "surge capacity"],
+      "source_refs": [
+        {
+          "document": "IAEA EPR-Biodosimetry 2011",
+          "path": "data/pdfs_ocr/EPR-Biodosimetry 2011_web_extracted.txt",
+          "line": 677,
+          "note": "triage of casualties and triage dose"
+        },
+        {
+          "document": "NCRP Commentary No. 19",
+          "path": "data/pdfs_ocr/ncw155_extracted.txt",
+          "line": 505,
+          "note": "manage mass casualty radiation incidents"
+        },
+        {
+          "document": "NCRP Commentary No. 19",
+          "path": "data/pdfs_ocr/ncw155_extracted.txt",
+          "line": 549,
+          "note": "incorporate mass casualty triage into planning"
+        }
+      ]
+    },
+    {
+      "field": "elapsed_hours",
+      "label": "노출 후 경과 시간",
+      "current_input": "0~336시간 슬라이더",
+      "meaning": "노출 후 시간 경과에 따라 사용할 수 있는 검사와 해석의 시간창이 달라지는지 반영",
+      "selection_basis": "생물학적 선량평가는 노출 직후와 며칠 뒤의 활용 방식이 같지 않으므로, 시간 경과를 별도 입력으로 두었다.",
+      "evidence_type": "문헌 표현과 비교적 직접 연결",
+      "source_topics": ["time window", "time after the incident", "timing of assessment"],
+      "source_refs": [
+        {
+          "document": "IAEA EPR-Biodosimetry 2011",
+          "path": "data/pdfs_ocr/EPR-Biodosimetry 2011_web_extracted.txt",
+          "line": 1899,
+          "note": "time window of only a few hours or days"
+        },
+        {
+          "document": "NCRP Commentary No. 19",
+          "path": "data/pdfs_ocr/ncw155_extracted.txt",
+          "line": 701,
+          "note": "time after the incident"
+        },
+        {
+          "document": "MULTIBIODOSE guidance",
+          "path": "data/pdfs_ocr/multibiodose-guidance-small_extracted.txt",
+          "line": 508,
+          "note": "assessment window for whole and partial body exposure"
+        }
+      ]
+    },
+    {
+      "field": "exposure_known",
+      "label": "노출 시각·위치·경로 정보 확보 여부",
+      "current_input": "토글",
+      "meaning": "초기 문진과 노출 이력 정보가 어느 정도 정리되어 있는지 반영",
+      "selection_basis": "노출 정보의 불확실성은 규칙 결과의 신뢰도와 다음 조치에 직접 영향을 주므로, 현장 정보 정리 수준을 입력값으로 단순화했다.",
+      "evidence_type": "문헌 개념을 UI 변수로 재구성",
+      "source_topics": ["questioning of patients", "exposure history", "scenario information"],
+      "source_refs": [
+        {
+          "document": "IAEA EPR-Biodosimetry 2011",
+          "path": "data/pdfs_ocr/EPR-Biodosimetry 2011_web_extracted.txt",
+          "line": 506,
+          "note": "questioning on time in locality and distance"
+        },
+        {
+          "document": "IAEA EPR-Medical 2024",
+          "path": "data/pdfs_ocr/EPR-Medical (2024)_web_extracted.txt",
+          "line": 1206,
+          "note": "record information about potential internal contamination"
+        },
+        {
+          "document": "IAEA EPR-Medical 2024",
+          "path": "data/pdfs_ocr/EPR-Medical (2024)_web_extracted.txt",
+          "line": 3378,
+          "note": "what are the signs/symptoms and when did they begin"
+        }
+      ]
+    },
+    {
+      "field": "partial_body_suspected",
+      "label": "부분피폭 가능성",
+      "current_input": "토글",
+      "meaning": "전신 균등피폭이 아닌 비균등·국소 피폭일 가능성을 반영",
+      "selection_basis": "부분피폭은 평균 전신선량 가정만으로 해석하면 왜곡될 수 있어, 해석 주의와 추가 검토 필요성을 별도로 반영했다.",
+      "evidence_type": "문헌 표현과 비교적 직접 연결",
+      "source_topics": ["partial body exposure", "non-uniform exposure", "whole body versus partial body"],
+      "source_refs": [
+        {
+          "document": "IAEA EPR-Biodosimetry 2011",
+          "path": "data/pdfs_ocr/EPR-Biodosimetry 2011_web_extracted.txt",
+          "line": 800,
+          "note": "non-uniform or partial body irradiations"
+        },
+        {
+          "document": "IAEA EPR-Biodosimetry 2011",
+          "path": "data/pdfs_ocr/EPR-Biodosimetry 2011_web_extracted.txt",
+          "line": 4068,
+          "note": "section on partial body exposure"
+        },
+        {
+          "document": "MULTIBIODOSE guidance",
+          "path": "data/pdfs_ocr/multibiodose-guidance-small_extracted.txt",
+          "line": 2443,
+          "note": "partial body exposure definition"
+        }
+      ]
+    },
+    {
+      "field": "internal_contamination_suspected",
+      "label": "내부 오염 가능성",
+      "current_input": "토글",
+      "meaning": "흡입·섭취·상처 오염 등 체내 유입 가능성이 있어 bioassay 등 별도 경로 평가가 필요한지 반영",
+      "selection_basis": "내부 오염이 의심되면 혈액 기반 해석만으로는 부족할 수 있어, 별도의 검사 경로와 자원 배분 필요성을 입력값으로 분리했다.",
+      "evidence_type": "문헌 표현과 비교적 직접 연결",
+      "source_topics": ["internal contamination", "bioassay", "urine and faeces sampling"],
+      "source_refs": [
+        {
+          "document": "IAEA EPR-Medical 2024",
+          "path": "data/pdfs_ocr/EPR-Medical (2024)_web_extracted.txt",
+          "line": 845,
+          "note": "definition of internal contamination"
+        },
+        {
+          "document": "IAEA EPR-Medical 2024",
+          "path": "data/pdfs_ocr/EPR-Medical (2024)_web_extracted.txt",
+          "line": 1294,
+          "note": "bioassay laboratory and internal contamination monitoring"
+        },
+        {
+          "document": "IAEA EPR-Medical 2024",
+          "path": "data/pdfs_ocr/EPR-Medical (2024)_web_extracted.txt",
+          "line": 2312,
+          "note": "assess internal contamination via swabs, facial surveys or wound monitoring"
+        },
+        {
+          "document": "IAEA EPR-Medical 2024",
+          "path": "data/pdfs_ocr/EPR-Medical (2024)_web_extracted.txt",
+          "line": 2407,
+          "note": "when internal contamination is suspected: urine"
+        }
+      ]
+    },
+    {
+      "field": "symptom_severity",
+      "label": "증상 수준",
+      "current_input": "없음/미상 / 경미 / 중등도 / 중증",
+      "meaning": "초기 증상의 존재와 심각도가 임상 우선 판단에 영향을 주는지 반영",
+      "selection_basis": "중증 증상은 생물학적 선량평가보다 먼저 의료 연계와 임상 확인이 필요한 상황을 구분하는 데 중요하므로 입력값으로 두었다.",
+      "evidence_type": "문헌 표현과 비교적 직접 연결",
+      "source_topics": ["clinical signs and symptoms", "primary triage", "severity of signs and symptoms"],
+      "source_refs": [
+        {
+          "document": "IAEA EPR-Biodosimetry 2011",
+          "path": "data/pdfs_ocr/EPR-Biodosimetry 2011_web_extracted.txt",
+          "line": 501,
+          "note": "clinical signs and symptoms"
+        },
+        {
+          "document": "IAEA EPR-Medical 2024",
+          "path": "data/pdfs_ocr/EPR-Medical (2024)_web_extracted.txt",
+          "line": 1003,
+          "note": "primary triage is assessment of vital signs and symptoms"
+        },
+        {
+          "document": "IAEA EPR-Medical 2024",
+          "path": "data/pdfs_ocr/EPR-Medical (2024)_web_extracted.txt",
+          "line": 3380,
+          "note": "what is the severity of the signs/symptoms"
+        }
+      ]
+    },
+    {
+      "field": "resource_level",
+      "label": "가용 자원 수준",
+      "current_input": "제한 / 보통 / 충분",
+      "meaning": "검사 처리량, 인력, 장비, 외부 기관 연계 가능성 등 운영 여력을 반영",
+      "selection_basis": "현실적인 방사선 비상 대응에서는 자원 부족 여부가 triage 전략과 검사 선택을 바꾸므로, 운영 자원을 핵심 입력으로 두었다.",
+      "evidence_type": "문헌 표현과 비교적 직접 연결",
+      "source_topics": ["scarce resources", "resource allocation", "surge diagnostics capability"],
+      "source_refs": [
+        {
+          "document": "NCRP Commentary No. 19",
+          "path": "data/pdfs_ocr/ncw155_extracted.txt",
+          "line": 410,
+          "note": "scarce resources setting"
+        },
+        {
+          "document": "NCRP Commentary No. 19",
+          "path": "data/pdfs_ocr/ncw155_extracted.txt",
+          "line": 596,
+          "note": "triage decisions in scarce resources settings"
+        },
+        {
+          "document": "NCRP Commentary No. 19",
+          "path": "data/pdfs_ocr/ncw155_extracted.txt",
+          "line": 830,
+          "note": "preplanning for allocation of resources"
+        }
+      ]
+    }
+  ]
+}
